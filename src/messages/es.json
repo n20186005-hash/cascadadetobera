@@ -493,6 +493,7 @@
     "brandName": "Cascada de Tobera",
     "brandSubtitle": "Guía científica y de visita independiente sin ánimo de lucro · Sin publicidad comercial · Sin comisiones de afiliación · Sin artículos patrocinados pagados",
     "rights": "© 2026 Asociación Independiente de Investigación Turística y del Patrimonio Natural de la Cascada de Tobera · Asociación registrada en el Registro Nacional de Asociaciones de España · Todos los derechos reservados.",
+    "photoCopyright": "Todas las imágenes mostradas en este sitio web son propiedad de sus fotógrafos originales. Todos los derechos reservados a sus respectivos autores.",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "cookies": "Configuración de cookies",
@@ -521,7 +522,7 @@
       },
       {
         "title": "3. Uso de cookies técnicas y analíticas mínimas",
-        "content": "Utilizamos únicamente cookies esenciales (sesión, preferencia de idioma es/en/zh, banner de aceptación) y analíticas agregadas y pseudonimizadas a través de Plausible Analytics, sin identificación por IP ni identificación personal. Puedes desactivarlas en la sección 'Configuración de cookies' en el pie de página."
+        "content": "Utilizamos únicamente cookies esenciales (sesión, preferencia de idioma es/en/zh, banner de aceptación). Las analíticas estadísticas las proporciona Google Analytics 4 (GA4, ID de medición G-HXM22WWPKP): NO se cargan por defecto, solo tras habilitarlas expresamente en la sección 'Configuración de cookies', y con anonimización de IP activada. No las utilizamos para publicidad dirigida ni perfiles de marketing. Puedes desactivarlas en cualquier momento desde la sección 'Configuración de cookies' del pie de página."
       },
       {
         "title": "4. Seguridad y derechos ARCO",
@@ -560,8 +561,8 @@
       "badge": "Siempre activas · Obligatorias"
     },
     "analytics": {
-      "title": "Analíticas agregadas y respetuosas (Plausible)",
-      "description": "Nos ayudan a entender el comportamiento agregado de las visitas: país, idioma de preferencia, páginas vistas, duración media de sesión. SIN identificación por IP, SIN cookies de terceros, SIN perfiles publicitarios. Datos alojados en UE bajo RGPD."
+      "title": "Analíticas agregadas (Google Analytics 4 · GA4 · desactivadas por defecto)",
+      "description": "DESACTIVADAS por defecto; solo se cargan tras tu aceptación expresa aquí. Se usan para entender el comportamiento agregado de las visitas: país/región, idioma de preferencia, páginas vistas, duración media de sesión. Con Google Analytics 4 (G-HXM22WWPKP) y anonimización de IP activada; solo estadística, sin publicidad dirigida."
     },
     "marketing": {
       "title": "Marketing y publicidad de terceros",

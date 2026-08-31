@@ -493,6 +493,7 @@
     "brandName": "Cascada de Tobera · 托贝拉瀑布",
     "brandSubtitle": "独立非盈利科学与参观指南（无商业广告、无联盟佣金、无付费软文赞助）",
     "rights": "© 2026 『托贝拉瀑布旅游与自然遗产独立研究协会』（西班牙国家社团登记局注册社会团体） · 保留所有权利。",
+    "photoCopyright": "本网站所展示的所有图片产权及版权均归原摄影者所有。",
     "privacy": "隐私政策",
     "terms": "服务条款（含 CC 开源许可）",
     "cookies": "Cookie 设置（默认最小化）",
@@ -521,7 +522,7 @@
       },
       {
         "title": "三、最小化技术 / 分析 Cookie",
-        "content": "我们仅启用【必要 Cookie】（语言选择 es/en/zh、会话、同意条、无障碍首选项）与【聚合分析 Plausible Analytics】——后者为欧盟托管、不记录 IP、不写入第三方 Cookie 的隐私友好方案。您随时可在页脚「Cookie 设置」中关闭分析类 Cookie。"
+        "content": "我们仅启用【必要 Cookie】（语言选择 es/en/zh、会话、同意条、无障碍首选项）。统计分析采用 Google Analytics 4（GA4，测量代码 G-HXM22WWPKP）：默认不加载、仅在您主动于「Cookie 设置」中开启后启用，并已开启 IP 匿名化；我们不用其做广告定向，不将数据用于营销画像。您随时可在页脚「Cookie 设置」中关闭分析类 Cookie。"
       },
       {
         "title": "四、数据安全与 ARCO 权利（访问 / 更正 / 注销 / 拒绝）",
@@ -560,8 +561,8 @@
       "badge": "强制启用 · 不可关闭"
     },
     "analytics": {
-      "title": "聚合隐私友好分析（Plausible · EU 托管）",
-      "description": "仅用于了解总访问量、访客地区、语言偏好、页面停留时长等汇总行为。无 IP、无跨站追踪、符合 GDPR。"
+      "title": "聚合统计分析（Google Analytics 4 · GA4 · 默认关闭）",
+      "description": "默认关闭，仅在您于本站「Cookie 设置」中明确开启后加载。用于了解总访问量、访客国家/地区、语言偏好、页面浏览量、平均会话时长等汇总行为。采用 Google Analytics 4（G-HXM22WWPKP），已开启 IP 匿名化，仅用于统计、不用于广告定向。"
     },
     "marketing": {
       "title": "第三方商业营销 Cookie",

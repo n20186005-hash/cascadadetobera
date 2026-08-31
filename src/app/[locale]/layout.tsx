@@ -380,6 +380,13 @@ export default async function LocaleLayout({
     <html lang={data.htmlLang} suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+        <meta name="theme-color" content="#234830" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Cascada de Tobera" />
         <TouristAttractionJsonLd locale={locale} />
         <FAQJsonLd locale={locale} />
         <script
@@ -393,6 +400,47 @@ export default async function LocaleLayout({
                   }
                 } catch(e) {}
               })();
+            `,
+          }}
+        />
+        {/* Google Analytics 4 — G-HXM22WWPKP (Consent Mode v2, analytics off by default) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXM22WWPKP"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              window.gtag = function() { dataLayer.push(arguments); };
+              gtag('js', new Date());
+              gtag('config', 'G-HXM22WWPKP', { anonymize_ip: true });
+              gtag('consent', 'default', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+              });
+              try {
+                var prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
+                if (prefs.analytics) {
+                  gtag('consent', 'update', { 'analytics_storage': 'granted' });
+                }
+              } catch(e) {}
+            `,
+          }}
+        />
+        {/* PWA Service Worker registration (production only) */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                var isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+                if (!isLocal) {
+                  window.addEventListener('load', function() {
+                    navigator.serviceWorker.register('/sw.js').catch(function(err) {
+                      console.warn('Service Worker registration failed:', err);
+                    });
+                  });
+                }
+              }
             `,
           }}
         />

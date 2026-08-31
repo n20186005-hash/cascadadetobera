@@ -3,6 +3,17 @@
 import { useTranslations, useLocale } from 'next-intl';
 import { useState, useEffect } from 'react';
 
+function applyAnalyticsConsent(granted: boolean) {
+  if (typeof window !== 'undefined' && (window as any).gtag) {
+    (window as any).gtag('consent', 'update', {
+      analytics_storage: granted ? 'granted' : 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+    });
+  }
+}
+
 function CookieToggle({
   label,
   description,
@@ -62,13 +73,17 @@ export default function CookieSettingsClient() {
   useEffect(() => {
     try {
       const prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
-      if (prefs.analytics) setAnalytics(true);
+      if (prefs.analytics) {
+        setAnalytics(true);
+        applyAnalyticsConsent(true);
+      }
       if (prefs.marketing) setMarketing(true);
     } catch {}
   }, []);
 
   function handleSave() {
     localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, marketing }));
+    applyAnalyticsConsent(analytics);
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }

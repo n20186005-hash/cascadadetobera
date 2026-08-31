@@ -493,6 +493,7 @@
     "brandName": "Cascada de Tobera",
     "brandSubtitle": "Independent non-profit scientific & visitor guide · No commercial advertising · No affiliate commissions · No paid sponsored articles",
     "rights": "© 2026 Cascada de Tobera Independent Tourist & Natural Heritage Research Association · Association registered in the National Registry of Associations of Spain · All rights reserved.",
+    "photoCopyright": "All images displayed on this website are the property of their original photographers. All rights reserved to their respective authors.",
     "privacy": "Privacy policy",
     "terms": "Terms of service",
     "cookies": "Cookie settings",
@@ -521,7 +522,7 @@
       },
       {
         "title": "3. Use of minimal technical and analytical cookies",
-        "content": "We only use essential cookies (session, es/en/zh language preference, acceptance banner) and aggregated, pseudonymized analytics via Plausible Analytics, with no IP or personal identification. You may disable analytics cookies in the 'Cookie settings' section at the bottom of the page."
+        "content": "We only use essential cookies (session, es/en/zh language preference, acceptance banner). Statistical analytics is provided by Google Analytics 4 (GA4, measurement ID G-HXM22WWPKP): it is NOT loaded by default, only after you explicitly enable it in the 'Cookie settings' section, and IP anonymization is enabled. We do not use it for advertising targeting or marketing profiles. You may disable analytics cookies at any time from the 'Cookie settings' section at the bottom of the page."
       },
       {
         "title": "4. Security and ARCO rights",
@@ -560,8 +561,8 @@
       "badge": "Always on · Mandatory"
     },
     "analytics": {
-      "title": "Aggregated & privacy-friendly analytics (Plausible)",
-      "description": "Help us understand aggregate visitor behavior: country, preferred language, page views, average session duration. NO IP identification, NO third-party cookies, NO advertising profiles. Data hosted in the EU under GDPR."
+      "title": "Aggregated analytics (Google Analytics 4 · GA4 · off by default)",
+      "description": "OFF by default; only loaded after you explicitly opt in here. Used to understand aggregate visitor behavior: country/region, preferred language, page views, average session duration. Powered by Google Analytics 4 (G-HXM22WWPKP) with IP anonymization enabled; statistics only, no advertising targeting."
     },
     "marketing": {
       "title": "Third-party marketing & advertising",
