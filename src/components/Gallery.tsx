@@ -1,41 +1,55 @@
 'use client';
 
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photos = [
-  { src: '/gallery/cascada-de-tobera-1.jpg', alt: 'Cascada de Tobera Photo 1' },
-  { src: '/gallery/cascada-de-tobera-2.jpg', alt: 'Cascada de Tobera Photo 2' },
-  { src: '/gallery/cascada-de-tobera-3.jpg', alt: 'Cascada de Tobera Photo 3' },
-  { src: '/gallery/cascada-de-tobera-4.jpg', alt: 'Cascada de Tobera Photo 4' },
-  { src: '/gallery/cascada-de-tobera-5.jpg', alt: 'Cascada de Tobera Photo 5' },
-  { src: '/gallery/cascada-de-tobera-6.jpg', alt: 'Cascada de Tobera Photo 6' },
-  { src: '/gallery/cascada-de-tobera-7.jpg', alt: 'Cascada de Tobera Photo 7' },
-  { src: '/gallery/cascada-de-tobera-8.jpg', alt: 'Cascada de Tobera Photo 8' },
-  { src: '/gallery/cascada-de-tobera-9.jpg', alt: 'Cascada de Tobera Photo 9' },
-  { src: '/gallery/cascada-de-tobera-10.jpg', alt: 'Cascada de Tobera Photo 10' },
-  { src: '/gallery/cascada-de-tobera-11.jpg', alt: 'Cascada de Tobera Photo 11' },
-  { src: '/gallery/cascada-de-tobera-12.jpg', alt: 'Cascada de Tobera Photo 12' },
-  { src: '/gallery/cascada-de-tobera-13.jpg', alt: 'Cascada de Tobera Photo 13' },
-  { src: '/gallery/cascada-de-tobera-14.jpg', alt: 'Cascada de Tobera Photo 14' },
-  { src: '/gallery/cascada-de-tobera-15.jpg', alt: 'Cascada de Tobera Photo 15' },
-  { src: '/gallery/cascada-de-tobera-16.jpg', alt: 'Cascada de Tobera Photo 16' },
-  { src: '/gallery/cascada-de-tobera-17.jpg', alt: 'Cascada de Tobera Photo 17' },
-  { src: '/gallery/cascada-de-tobera-18.jpg', alt: 'Cascada de Tobera Photo 18' },
-  { src: '/gallery/cascada-de-tobera-19.jpg', alt: 'Cascada de Tobera Photo 19' },
+const ALT_ENTITY: Record<string, { fallback: (i: number) => string }> = {
+  es: {
+    fallback: (i: number) => `Cascada de Tobera — imagen ${i + 1} del paraje natural en Tobera, Burgos`,
+  },
+  en: {
+    fallback: (i: number) => `Cascada de Tobera — image ${i + 1} of the natural landmark in Tobera, Burgos, Spain`,
+  },
+  zh: {
+    fallback: (i: number) => `托贝拉瀑布 Cascada de Tobera — 西班牙布尔戈斯托贝拉自然景点图片 No.${i + 1}`,
+  },
+};
+
+const BASE_PHOTOS = [
+  { src: '/gallery/cascada-de-tobera-1.jpg' },
+  { src: '/gallery/cascada-de-tobera-2.jpg' },
+  { src: '/gallery/cascada-de-tobera-3.jpg' },
+  { src: '/gallery/cascada-de-tobera-4.jpg' },
+  { src: '/gallery/cascada-de-tobera-5.jpg' },
+  { src: '/gallery/cascada-de-tobera-6.jpg' },
+  { src: '/gallery/cascada-de-tobera-7.jpg' },
+  { src: '/gallery/cascada-de-tobera-8.jpg' },
+  { src: '/gallery/cascada-de-tobera-9.jpg' },
+  { src: '/gallery/cascada-de-tobera-10.jpg' },
+  { src: '/gallery/cascada-de-tobera-11.jpg' },
+  { src: '/gallery/cascada-de-tobera-12.jpg' },
+  { src: '/gallery/cascada-de-tobera-13.jpg' },
+  { src: '/gallery/cascada-de-tobera-14.jpg' },
+  { src: '/gallery/cascada-de-tobera-15.jpg' },
+  { src: '/gallery/cascada-de-tobera-16.jpg' },
+  { src: '/gallery/cascada-de-tobera-17.jpg' },
+  { src: '/gallery/cascada-de-tobera-18.jpg' },
+  { src: '/gallery/cascada-de-tobera-19.jpg' },
 ];
 
 export default function Gallery() {
   const t = useTranslations('gallery');
   const messages = useMessages() as any;
+  const locale = useLocale();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const captions = (messages?.gallery?.captions || []) as string[];
+  const fallback = (ALT_ENTITY[locale] || ALT_ENTITY.es).fallback;
 
-  const galleryPhotos = photos.map((photo, i) => ({
+  const galleryPhotos = BASE_PHOTOS.map((photo, i) => ({
     ...photo,
-    alt: captions[i] || photo.alt,
+    alt: captions[i] || fallback(i),
   }));
 
   const goToPrevious = useCallback(() => {
@@ -188,8 +202,9 @@ export default function Gallery() {
             </svg>
           </button>
 
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
-            {currentIndex + 1} / {galleryPhotos.length}
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm max-w-[80vw] text-center">
+            <div className="mb-1">{currentIndex + 1} / {galleryPhotos.length}</div>
+            <div className="text-xs text-white/60 leading-relaxed">{galleryPhotos[currentIndex].alt}</div>
           </div>
         </div>
       )}

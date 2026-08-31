@@ -3,7 +3,7 @@ import { useTranslations, useLocale } from 'next-intl';
 export default function Footer() {
   const t = useTranslations('footer');
   const locale = useLocale();
-  const prefix = locale === 'en' ? '' : `/${locale}`;
+  const prefix = locale === 'es' ? '' : `/${locale}`;
 
   return (
     <footer
@@ -21,29 +21,6 @@ export default function Footer() {
                 {t('brandSubtitle')}
               </p>
             </div>
-            <h3 className="font-display text-lg font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
-              {t('officialResourcesTitle')}
-            </h3>
-            <div className="flex flex-col gap-2">
-              <a href="https://www.spain.info/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.spainTourism')}
-              </a>
-              <a href="https://www.turismocastillayleon.com/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.castillaLeon')}
-              </a>
-              <a href="https://turismoburgos.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.burgos')}
-              </a>
-              <a href="http://www.ciudaddefrias.es/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.frias')}
-              </a>
-              <a href="https://patrimonionatural.org/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.naturalHeritage')}
-              </a>
-              <a href="https://www.turismo.gal" target="_blank" rel="noopener noreferrer" className="hover:underline text-sm" style={{ color: 'var(--accent)' }}>
-                {t('officialLinks.galicia')}
-              </a>
-            </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">
@@ -60,7 +37,7 @@ export default function Footer() {
 
         <div
           className="pt-6 text-center text-sm space-y-4"
-          style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
+          style={{ borderTop: '1px dashed var(--border-color)', color: 'var(--text-muted)' }}
         >
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>

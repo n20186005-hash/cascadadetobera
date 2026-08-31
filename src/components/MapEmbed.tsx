@@ -1,7 +1,28 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+
+const OFFICIAL_URLS = [
+  { key: 'spainTourism', href: 'https://www.spain.info/' },
+  { key: 'castillaLeon', href: 'https://www.turismocastillayleon.com/' },
+  { key: 'burgos', href: 'https://turismoburgos.org/' },
+  { key: 'frias', href: 'http://www.ciudaddefrias.es/' },
+  { key: 'naturalHeritage', href: 'https://patrimonionatural.org/' },
+  { key: 'natura2000', href: 'https://ec.europa.eu/environment/nature/natura2000/' },
+];
+
+const MAPS_EMBED_SRC =
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5211.098599278844!2d-3.3049858!3d42.7500214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f6c31bfc6e4b7%3A0x17267225826c5ebd!2sCascada%20de%20Tobera!5e1!3m2!1ses!2ses!4v1787917182553!5m2!1ses!2ses';
+
+const ALT_I18N: Record<string, string> = {
+  es: 'Mapa de ubicación de la Cascada de Tobera en Tobera, Burgos, España',
+  en: 'Location map of Cascada de Tobera in Tobera, Burgos, Spain',
+  zh: '托贝拉瀑布 Cascada de Tobera 地理位置地图（西班牙布尔戈斯托贝拉）',
+};
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const tOff = useTranslations('footer');
+  const locale = useLocale();
+  const title = ALT_I18N[locale] || ALT_I18N.es;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -15,28 +36,22 @@ export default function MapEmbed() {
         <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        {/* Map */}
         <div
-          className="map-container relative rounded-xl overflow-hidden"
+          className="map-container relative rounded-xl overflow-hidden shadow-lg"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/*
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://maps.google.com/maps?q=Cascada+de+Tobera+Burgos+Spain&output=embed"
+            src={MAPS_EMBED_SRC}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Cascada de Tobera"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={title}
           />
         </div>
 
-        {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
             href="https://maps.app.goo.gl/7X96TBmK29sVp9Wp7"
@@ -56,6 +71,26 @@ export default function MapEmbed() {
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
           </a>
+        </div>
+
+        <div className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--border-color)]" style={{ background: 'var(--bg-tertiary)' }}>
+          <h3 className="font-display text-lg font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
+            {tOff('officialResourcesTitle')}
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {OFFICIAL_URLS.map((link) => (
+              <a
+                key={link.key}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline text-sm py-1.5"
+                style={{ color: 'var(--accent)' }}
+              >
+                {tOff(`officialLinks.${link.key}`)}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </section>

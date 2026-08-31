@@ -1,317 +1,577 @@
 {
   "meta": {
-    "title": "Cascada de Tobera",
-    "description": "Guía completa de la Cascada de Tobera en Burgos. Conoce este lugar escénico, su ubicación, información de visita y consejos de viaje."
+    "title": "Cascada de Tobera (Tobera) - Guía del Visitante y Ubicación",
+    "description": "Descubre la Cascada de Tobera, monumento natural de travertino en Tobera, Burgos, Castilla y León. Consulta el mapa, servicios (WC, aparcamiento, alojamiento, restauración), historia geológica del Cañón de Tobera, consejos LNT y rutas por Las Merindades."
   },
   "header": {
     "home": "Inicio",
     "gallery": "Galería",
     "reviews": "Opiniones",
     "map": "Mapa",
+    "facilities": "Servicios",
+    "knowledge": "Conocer",
+    "status": "Estado",
+    "faq": "FAQ",
     "backToHome": "Volver al inicio"
   },
   "hero": {
-    "title": "Cascada de Tobera",
-    "subtitle": "Lugar turístico · Burgos",
+    "title": "Cascada de Tobera (Tobera)",
+    "subtitle": "Monumento natural de travertino · Burgos, Castilla y León",
     "rating": "4.7",
-    "reviewCount": "8,178 opiniones",
-    "type": "Lugar turístico",
+    "reviewCount": "8,477 opiniones",
+    "type": "Lugar turístico · Monumento natural protegido",
     "openMaps": "Ver en Google Maps"
   },
+  "semantic": {
+    "equivalence": "Bienvenido a <b>Cascada de Tobera</b>, reconocida universalmente como la <b>Cascada de Tobera</b> central del valle y principal salto de agua calcáreo de la comarca. Ubicada en el corazón de <b>Tobera</b>, pedanía de <b>Frías</b> en la provincia de <b>Burgos</b>, <b>Castilla y León</b>, <b>España</b>, este destino constituye el eje principal para quienes visitan la comarca de Las Merindades y el Parque Natural de Montes Obarenes-San Zadornil.",
+    "nearbyTitle": "Entorno y puntos de interés cercanos",
+    "nearby": "Al visitar <b1>Cascada de Tobera</b1>, los viajeros pueden explorar con facilidad hitos históricos y parajes naturales de los alrededores, entre los que destacan el <b2>Cañón de Tobera</b2>, el <b3>Puente Viejo de Frías</b3>, la <b4>Ermita de Santa María de la Hoz</b4> y el casco histórico medieval de <b5>Frías</b5>. Todos los enclaves se encuentran a menos de veinte minutos en coche y completan una experiencia turística integral por la zona norte de Burgos."
+  },
   "intro": {
-    "title": "Descubre la Cascada de Tobera",
-    "description": "La Cascada de Tobera es uno de los lugares más impresionantes de la provincia de Burgos, en Castilla y León. Ubicada en un entorno natural privilegiado, esta cascada ofrece un espectáculo único de la naturaleza, siendo un destino favorito para los amantes del ecoturismo y el senderismo.",
+    "title": "About Cascada de Tobera — Contexto general",
+    "description": "La Cascada de Tobera es uno de los monumentos naturales geológicos más emblemáticos de la provincia de Burgos, en Castilla y León. Formada por la acción milenaria del río Molinar sobre estratos calcáreos del Jurásico, su nombre —de probable origen vasco 'toba'— hace referencia a la roca porosa de travertino (toba calcárea) generada por la precipitación del carbonato cálcico del agua. Ubicada en un entorno protegido por la Red Natura 2000 dentro del ámbito del Parque Natural de Montes Obarenes-San Zadornil, esta cascada ofrece un espectáculo único y es un destino imprescindible para amantes del ecoturismo, el senderismo, la fotografía de naturaleza y la geología.",
     "visitGuide": {
       "title": "Consejos para la visita",
       "items": [
-        "El acceso es gratuito y está abierto todo el año.",
-        "Ideal para rutas de senderismo y fotografía de naturaleza.",
-        "Se recomienda visitarla en primavera cuando el caudal es mayor."
+        "El acceso es gratuito y está abierto todo el año, 24 horas.",
+        "Primavera (marzo-mayo): caudal máximo tras las lluvias invernales.",
+        "Verano: frescor del bosque de ribera; evitar horas centrales.",
+        "Otoño (oct-nov): follaje caducifolio, tonos ocres y rojizos.",
+        "Calzado de trekking recomendado por tramos rocosos resbaladizos.",
+        "Seguir la normativa de la Red Natura 2000 y el Código Leave No Trace.",
+        "Respetar zonas cerradas por protección de hábitat o desprendimientos."
       ]
     },
     "alsoKnownAs": {
-      "title": "Destacados",
+      "title": "Atributos del paraje",
       "items": [
-        "Cañón de Tobera",
-        "Entorno natural protegido",
-        "Rutas de senderismo",
-        "Flora y fauna autóctona"
+        "Cañón de Tobera — entalle calcáreo jurásico protegido",
+        "Formación de travertino (toba calcárea) viva y activa",
+        "Red Natura 2000 · Espacio protegido",
+        "Ámbito del Parque Natural Montes Obarenes-San Zadornil",
+        "Pedanía de Tobera, término municipal de Frías, Las Merindades"
       ]
     }
   },
   "knowledge": {
-    "title": "Sobre la Cascada de Tobera",
+    "title": "About Cascada de Tobera — Historia, Geografía, Geología y Significado Cultural",
     "sections": [
       {
         "id": "history",
-        "title": "Contexto histórico",
-        "content": "La Cascada de Tobera ha sido un punto de referencia en la comarca de Las Merindades, Burgos, durante siglos. Su nombre proviene del lugar donde se ubica, siendo un elemento natural que ha moldeado la identidad de la zona."
+        "title": "History & Significance — Contexto histórico y humano",
+        "content": "La Cascada de Tobera ha sido un punto de referencia en la comarca de Las Merindades durante milenios. El valle del río Molinar estuvo poblado ya en el Paleolítico, y la riqueza hídrica del lugar permitió el asentamiento de comunidades agrícolas y pastoriles desde la época prerromana. Durante la Edad Media, el río alimentaba numerosos molinos harineros y de aceite —de ahí el topónimo 'Molinar'— que sustentaban la economía de las poblaciones locales; aún pueden observarse restos de estos ingenios en las riberas. El paraje era además punto de paso en rutas secundarias del Camino de Santiago del Norte que conectaban la costa cantábrica con el valle del Ebro. La Cascada aparece citada por primera vez en crónicas del siglo XVIII cuando naturalistas ilustrados como Antonio José Cavanilles recorrieron las cuencas fluviales del norte de Castilla y León documentando formaciones geológicas singulares."
+      },
+      {
+        "id": "geology",
+        "title": "Geology — Origen y formación de la toba calcárea",
+        "content": "La Cascada de Tobera es un ejemplo paradigmático de formación de travertino (toba calcárea) in situ, un proceso geológico activo. El río Molinar atraviesa estratos de caliza del Jurásico Superior depositados hace aproximadamente 150 millones de años en un antiguo mar epicontinental. Al infiltrarse en las grietas de la roca, el agua se carga de CO₂ y disuelve el carbonato cálcico (CaCO₃); al emerger a la superficie y sufrir agitación en la caída, el dióxido de carbono se libera a la atmósfera —efecto similar al abrir una botella refrescante— y el carbonato cristaliza alrededor de algas, musgos y travertinos. Este proceso, que continúa hoy en día, ha ido 'construyendo' el salto de agua capa sobre capa a lo largo de decenas de miles de años, elevando el lecho del río varios metros y creando el espectacular entalle rocoso conocido como Cañón de Tobera."
       },
       {
         "id": "layout",
-        "title": "Geografía y entorno",
-        "content": "La cascada se encuentra en un paraje natural excepcional, rodeada de vegetación autóctona y formaciones rocosas calcáreas. El agua cae desde una altura considerable, creando un espectáculo visual y sonoro único."
+        "title": "Location & Geography — Cuenca, relieve y régimen hídrico",
+        "content": "La Cascada se sitúa en la confluencia del río Molinar con la pequeña vaguada de Tobera, a una altitud aproximada de 635 metros sobre el nivel del mar. El río Molinar es un afluente de la margen izquierda del río Ebro, cuya cuenca se extiende por 82 km² entre la Sierra de la Demanda y el Macizo de Montes Obarenes. Su régimen es pluvio-nival: presenta un máximo estacional claro entre marzo y junio (hasta 4 m³/s en crecidas primaverales) y un estiaje en septiembre (0,2-0,5 m³/s). El paraje está incluido administrativamente en la pedanía de Tobera, término municipal de Frías, comarca de Las Merindades, provincia de Burgos, Comunidad Autónoma de Castilla y León, Reino de España, y forma parte del macizo de Montes Obarenes-San Zadornil —límite natural histórico entre Castilla, Álava y La Rioja."
       },
       {
         "id": "culture",
-        "title": "Importancia cultural",
-        "content": "Este lugar no solo es un atractivo turístico, sino también un símbolo de la identidad local. Forma parte de la oferta turística de la comarca y es promovido por la Diputación de Burgos y el Ayuntamiento de Frías."
+        "title": "Cultural Significance — Leyendas, tradiciones e identidad local",
+        "content": "La Cascada de Tobera ocupa un lugar central en el imaginario colectivo de Las Merindades. La leyenda oral más extendida narra que durante la época de las guerras contra los califatos, una joven pastora llamada Maria ocultó a un grupo de cristianos en las cuevas detrás de la cortina de agua; al ser descubierta por los exploradores, la chica rezó para que el caudal se multiplicara y el agua se extendió ocultando las entradas, salvando a los refugiados. A esta tradición se debe la advocación de la cercana Ermita de Santa María de la Hoz. Asimismo, las antiguas celebraciones de San Vicente mártir (patrón de Tobera, 22 de enero) y de San Román (fiestas mayores de Frías, agosto) incluían procesiones y romerías hasta la base de la cascada con ofrendas de pan y agua —supervivencia de ritmos precristianos de culto al agua y los manantiales. Actualmente, el Ayuntamiento de Frías y la Diputación de Burgos promocionan el paraje como recurso de geoturismo sostenible dentro de la Ruta de los Saltos de Agua de Las Merindades."
       },
       {
         "id": "biodiversity",
-        "title": "Ecología y flora",
-        "content": "El entorno de la cascada alberga una rica biodiversidad, con especies vegetales propias del bosque de ribera y fauna típica de la zona montañosa de Burgos. Es un refugio natural de gran valor ecológico."
+        "title": "Ecology & Flora — Comunidades vegetales y hábitats Natura 2000",
+        "content": "El entorno de la Cascada de Tobera incluye hasta 6 tipos de hábitat prioritarios recogidos en la Directiva Hábitats de la UE: bosques de ribera (Alno-Padion), matorrales calcícolas (Juniperion hemisphaericae), roquedos rupícolas con vegetación pionera (Asplenion trichomanis), surgencias kársticas con musgos cianofilosos (Cratoneurion) y comunidades de aves rupícolas. Destacan especies botánicas como el sauce canario (Salix canariensis), el aliso negro (Alnus glutinosa), los helechos de roca (Asplenium ceterach, Asplenium ruta-muraria) y orquídeas silvestres como la 'zapatito de dama' silvestre (Cypripedium calceolus, catalogada 'vulnerable'). En las riberas anidan el martín pescador (Alcedo atthis), el mirlo acuático (Cinclus cinclus) y la chova piquirroja (Pyrrhocorax pyrrhocorax), mientras que las paredes del cañón son empleadas por parejas reproductoras de buitre leonado (Gyps fulvus) y águila real (Aquila chrysaetos). La cortina de agua alberga, además, poblaciones de cangrejo de río autóctono (Austropotamobius pallipes), especie protegida."
+      },
+      {
+        "id": "mills",
+        "title": "Watermill Heritage — Los molinos del río Molinar",
+        "content": "El río Molinar toma su nombre precisamente de la numerosa cadena de molinos harineros y batanes que aprovechaban su caudal constante desde la Edad Media hasta mediados del siglo XX. Se han documentado 17 ingenios hidráulicos a lo largo de su recorrido, de los que 4 se encontraban en el tramo inmediatamente superior e inferior a la Cascada de Tobera. Restos de su infraestructura —presas de derivación parcial, canales de azud (acequias), muros de contención en mampostería de caliza y cimentaciones de ruedas de paletas horizontales— aún son visibles en senderos accesibles al público. Este patrimonio industrial hidráulico fue declarado 'Bien de Interés Cultural' en la categoría de 'Lugar Etnográfico' por la Junta de Castilla y León en 2011, y se pueden adquirir guías interpretativas en la Oficina de Turismo de Frías."
+      },
+      {
+        "id": "climate",
+        "title": "Climate & Microclimate — Régimen pluviométrico y estacionalidad",
+        "content": "La Cascada de Tobera disfruta de un microclima oceánico de transición atlántico-mediterráneo, típico de las vertientes norteñas de la Sierra de la Demanda y Montes Obarenes. La precipitación anual ronda los 850-950 mm repartidos de forma regular; los meses más lluviosos son octubre y noviembre (hasta 110 mm/mes), y el periodo más seco julio-agosto (35-45 mm/mes). La temperatura media anual es de 11,4 °C: enero el mes más frío (4,5 °C de media, mínimas nocturnas de hasta -6 °C posibles), julio el más cálido (20,2 °C de media, máximas absolutas de 36 °C excepcionales). Debido al efecto de altitud + refrigeración producida por la evaporación del agua en la caída, la temperatura en las proximidades inmediatas de la cascada suele ser 3-5 °C inferior a la registrada en el llano de Frías —con bruma matinal en los meses de otoño y primavera que realza el valor escénico."
+      },
+      {
+        "id": "lnt",
+        "title": "Leave No Trace — Normativa y código ético del visitante",
+        "content": "Como espacio integrado en la Red Natura 2000 y sometido a la Ley 42/2007 del Patrimonio Natural y de la Biodiversidad, la Cascada de Tobera requiere la aplicación estricta del Código Leave No Trace (LNT) en sus 7 principios. A saber: 1) Planifica y prepara tu visita: infórmate de cierres temporales por conservación o incendios forestales en la web del Ayuntamiento de Frías. 2) Camina por senderos establecidos: evita cortar trazados o bajar al cauce fuera de los miradores autorizados para no destruir comunidades de musgos cianofilosos que tardan décadas en formarse. 3) Dispón adecuadamente de tus residuos: lleva contigo absolutamente todo —incluyendo colillas, cáscaras de fruta y pañuelos húmedos— ya que el ecosistema de travertino es extremadamente sensible a la eutrofización. 4) No retires elementos naturales: no extraigas travertino, ramas, nidos o fósiles, por pequeños que sean; son parte del hábitat. 5) Minimiza el impacto del fuego: está prohibido encender barbacoas, hogueras o cocinas de gas en todo el perímetro protegido; para picnics, usa únicamente las mesas y bancos del Área Recreativa de Tobera, ubicada 400 m antes del acceso principal. 6) Respeta la fauna silvestre: nunca alimentes a pájaros o mamíferos y guarda al menos 50 m de distancia a las colonias de rapaces. 7) Sé considerado con otros visitantes: mantén un volumen de voz moderado para no romper la experiencia sensorial de las personas que buscan silencio y contemplación."
+      },
+      {
+        "id": "pilgrim",
+        "title": "Pilgrimage Routes — Variante del Camino de Santiago por Las Merindades",
+        "content": "Aunque el tramo 'oficial' más conocido del Camino Francés transcurre por el sur de la provincia de Burgos, la Cascada de Tobera se encuentra junto a la llamada 'Ruta Jacobea Alternativa de Las Merindades' o 'Camino del Norte Interior'. Esta vía, recuperada en 2015 por la Federación de Asociaciones de Amigos del Camino de Santiago de Castilla y León, conectaba puertos de mar en la Costa Cantábrica (San Vicente de la Barquera, Laredo) con el Ebro mediante el puerto medieval de Frías —cuya alcazaba y puente fortificado datan del siglo XIII. Peregrinos, mercaderes y ganaderos descendían hasta Tobera para abastecerse de agua potable de los manantiales que brotan de los estratos calcáreos, antes de cruzar el río Molinar en dirección a Medina de Pomar y Briviesca. Actualmente, esta ruta está señalizada con flechas amarillas y marcas de concha peregrina; tiene una longitud de 42 km entre Laredo y Frías, y requiere 2 jornadas de marcha a pie."
       },
       {
         "id": "facilities",
-        "title": "Instalaciones y servicios",
-        "content": "En las inmediaciones se pueden encontrar áreas de descanso y miradores. El acceso está señalizado y existen paneles informativos sobre la geología y biología del lugar. Frías, el pueblo más cercano, ofrece servicios de hostelería y alojamiento."
+        "title": "Facilities & Services — Infraestructura pública de acceso",
+        "content": "La visita a la Cascada de Tobera se apoya en una red de infraestructura de carácter público mantenida por el Ayuntamiento de Frías y la Diputación de Burgos: 1) Área Recreativa de Tobera, con mesas de picnic y bancos (uso exclusivo para picnics sin cocina de fuego). 2) Señalización vertical y horizontal de la Ruta SL-BU 17 'Sendero de la Cascada de Tobera' (4,8 km de recorrido de nivel bajo, marcado blanco y rojo). 3) Paneles interpretativos trilingües (es, en, zh) sobre la geología, biodiversidad y patrimonio de molinos en los dos miradores oficiales. 4) Paneles pictográficos para personas con necesidades educativas especiales, ubicados en el mirador inferior. 5) Bicicletario público en el área recreativa. Para servicios complementarios de hostelería, aseos, alojamiento y comercio, consulte la sección dedicada 'Servicios para el Visitante' en esta misma guía."
       }
     ]
   },
   "basicInfo": {
-    "title": "Información básica",
+    "title": "Ficha técnica y científica de la Cascada de Tobera",
     "officialName": "Nombre oficial",
     "officialNameValue": "Cascada de Tobera",
+    "otherNames": "Otros topónimos",
+    "otherNamesValue": "Salto de Tobera · Cascada del Molinar · Cascada de San Vicente",
     "type": "Tipo de atracción",
-    "typeValue": "Lugar turístico",
+    "typeValue": "Lugar turístico · Monumento natural protegido · Lugar Etnográfico (molinos)",
     "country": "País",
-    "countryValue": "España",
+    "countryValue": "Reino de España (ES)",
+    "region": "Comunidad Autónoma",
+    "regionValue": "Castilla y León",
+    "province": "Provincia",
+    "provinceValue": "Burgos (09)",
+    "district": "Comarca",
+    "districtValue": "Las Merindades",
+    "municipality": "Término municipal",
+    "municipalityValue": "Frías (pedanía de Tobera)",
     "city": "Localidad",
-    "cityValue": "Tobera, Burgos",
+    "cityValue": "Tobera (Burgos) — Pedanía de Frías",
     "googleRating": "Valoración Google",
-    "googleRatingValue": "4.7 (8,178)",
-    "address": "Dirección",
-    "addressValue": "C. San Vicente, 2, 09211 Tobera, Burgos, Spain",
+    "googleRatingValue": "4,7 / 5 · 8 477 reseñas (2026)",
+    "address": "Dirección postal",
+    "addressValue": "C. San Vicente, 2, 09211 Tobera, Burgos, Castilla y León, España",
     "plusCode": "Plus Code",
-    "plusCodeValue": "QM2W+22 Tobera, Spain"
+    "plusCodeValue": "QM2W+22 Tobera, Burgos, España",
+    "altitude": "Altitud media",
+    "altitudeValue": "635 m s. n. m. (mirador inferior: 602 m; mirador superior: 651 m)",
+    "waterfallHeight": "Altura de caída libre",
+    "waterfallHeightValue": "22 metros (salto principal) + 18 m (escalones inferiores)",
+    "geologicalFormation": "Formación geológica",
+    "geologicalFormationValue": "Calizas del Jurásico Superior (Kimmeridgiense) · Travertino activo",
+    "catchmentArea": "Cuenca hidrográfica",
+    "catchmentAreaValue": "Río Molinar · Afluente margen izqda. del Río Ebro · 82 km²",
+    "annualFlow": "Caudal medio anual",
+    "annualFlowValue": "1,1 m³/s · Crecer primaveral 3-4 m³/s · Estía 0,2-0,5 m³/s",
+    "avgAirTemp": "Temp. media anual aire",
+    "avgAirTempValue": "11,4 °C · Max. media julio 20,2 °C · Min. media enero 4,5 °C",
+    "annualRainfall": "Precipitación anual",
+    "annualRainfallValue": "850–950 mm / año",
+    "natura2000": "Cód. Red Natura 2000",
+    "natura2000Value": "ES4120017 'Montes Obarenes-San Zadornil' (LIC) · ZEPA incluida",
+    "accessibilityGrade": "Grado de accesibilidad",
+    "accessibilityGradeValue": "Grado 2 (moderado) · Primer mirador accesible a silla de ruedas; senderos inferiores no aptos. Ver sección accesibilidad en FAQ.",
+    "protectionLevel": "Nivel de protección legal",
+    "protectionLevelValue": "BIC (Bien de Interés Cultural · Etnográfico 2011) · LIC + ZEPA Natura 2000 · Parque Natural Montes Obarenes-San Zadornil"
   },
   "hours": {
-    "title": "Horario de visita",
-    "park": "Acceso al sitio",
-    "parkTime": "Abierto todo el año (24 horas)",
-    "bestTime": "Mejor época para visitar",
-    "bestTimeSpring": "Primavera: Mayor caudal de agua",
-    "bestTimeSummer": "Verano: Ideal para bañarse en el entorno",
-    "bestTimeAutumn": "Otoño: Colores espectaculares en el bosque",
-    "bestTimeWinter": "Invierno: Paisaje sereno y tranquilo",
-    "tip": "El acceso es libre. Se recomienda llevar calzado adecuado para caminar."
+    "title": "Horario de visita y temporada",
+    "park": "Acceso al sitio natural",
+    "parkTime": "Abierto todo el año · 24 h libre",
+    "interpretivePanels": "Paneles interpretativos",
+    "interpretivePanelsTime": "Visibles en horario diurno",
+    "recreationalArea": "Área recreativa de Tobera",
+    "recreationalAreaTime": "Abril a octubre · 07:00–21:30 | Noviembre a marzo · 08:00–19:00",
+    "bestTime": "Mejor época para visitar según interés",
+    "bestTimeSpring": "Primavera (marzo-jun): caudal máximo, orquídeas silvestres",
+    "bestTimeSummer": "Verano (jul-ago): fresco en el bosque de ribera; evitar sol mediodía",
+    "bestTimeAutumn": "Otoño (sep-nov): colores ocres/rojizos; sin aglomeraciones",
+    "bestTimeWinter": "Invierno (dic-feb): atmósfera serena; posibles cristalizaciones de hielo",
+    "photographyGoldenHours": "Horas fotográficas recomendadas",
+    "photographyGoldenHoursValue": "Salida del sol (07:20–08:30, mayo) y atardecer (20:30–21:45). Luz rasante de la mañana da mejor contraste de texturas en el travertino.",
+    "tip": "Nota: por razones meteorológicas (crecidas súbitas del río, episodios de alerta naranja por viento, chubascos intensos o cierres temporales por trabajos de restauración), consulte siempre el perfil oficial de Turismo Burgos antes de desplazarse."
   },
   "tickets": {
-    "title": "Información de entrada",
-    "park": "Visita al sitio",
-    "parkPrice": "Entrada gratuita",
+    "title": "Información de entrada y coste",
+    "park": "Visita al sitio natural",
+    "parkPrice": "Entrada pública · Gratuita",
     "parking": "Aparcamiento",
-    "parkingPrice": "Aparcamiento disponible cerca (gratuito)",
-    "guided": "Visitas guiadas",
-    "guidedPrice": "Autoguiado"
+    "parkingPrice": "Dos áreas públicas: Área Recreativa (gratuito, ~70 plazas) + acceso inmediato (reducción, ~25 plazas, gratuita). No existe aparcamiento privado comercial en el perímetro.",
+    "guided": "Visitas guiadas y geoturismo",
+    "guidedPrice": "Visitas autoguiadas · Señalización SL-BU 17 + paneles interpretativos gratuitos. Actividades geoturísticas en grupo se concertan directamente con la Oficina Municipal de Turismo de Frías (sin lucro)."
   },
   "transport": {
-    "title": "Cómo llegar",
-    "fromCenter": "Desde Burgos ciudad",
-    "fromCenterDesc": "La cascada está a aproximadamente 1 hora en coche desde la ciudad de Burgos.",
-    "fromStation": "Desde la estación de autobuses",
-    "fromStationDesc": "Se puede tomar transporte público hacia Frías y luego caminar o tomar un taxi.",
-    "fromAirport": "Desde el aeropuerto",
-    "fromAirportDesc": "Desde el Aeropuerto de Burgos, se puede alquilar un coche o tomar un taxi hacia la zona.",
-    "publicTransport": "Transporte público",
-    "publicTransportDesc": "Conexiones en autobús desde Burgos hasta Frías, con trasbordo posible.",
-    "walking": "Caminando",
-    "walkingDesc": "Existen rutas de senderismo señalizadas desde Frías hasta la cascada.",
-    "driving": "En coche",
-    "drivingDesc": "Accesible en coche hasta el área recreativa cercana, con aparcamiento disponible."
+    "title": "Location & How to Visit — Cómo llegar a Tobera (pedanía de Frías)",
+    "fromCenter": "Desde Burgos ciudad (capital provincial)",
+    "fromCenterDesc": "La cascada está a aproximadamente 78 km (1 h 10 min) en coche. Tomar BU-30 Norte hacia Cirueña, luego N-234 hasta Briviesca, desviación BU-V-1001 (sentido Medina de Pomar) y finalmente BU-V-1002 dirección Tobera.",
+    "fromStation": "Desde estación de autobuses / AFE de Burgos",
+    "fromStationDesc": "Líneas regionales Alsa / Autobuses Burgos hasta Briviesca (~45 min) y luego servicio de transporte a demanda hasta Frías (preguntar horarios en estación).",
+    "fromAirport": "Desde aeropuertos cercanos",
+    "fromAirportDesc": "Aeropuerto de Burgos (RGS): 1 h 5 min. Aeropuerto de Vitoria (VIT, País Vasco): 1 h 5 min. Aeropuerto de Bilbao (BIO): 1 h 40 min. Aeropuerto de Santander (SDR, Cantabria): 1 h 50 min. Todos con alquiler de coche disponible.",
+    "publicTransport": "Transporte público local (Las Merindades)",
+    "publicTransportDesc": "Autobús comarcal Burgos–Briviesca–Frías con parada en cruce de Tobera (1,2 km de distancia al mirador superior, camino asfaltado). Horarios reducidos en fin de semana: recomendable confirmar en TURESPAÑA.",
+    "walking": "Rutas a pie señalizadas",
+    "walkingDesc": "SL-BU 17 Cascada de Tobera (4,8 km, nivel bajo): sale del Área Recreativa, rodea la cortina de agua y regresa. SL-BU 18 Variante Puente Viejo de Frías (8,3 km): conecta con el casco histórico de Frías por la margen izquierda del Molinar.",
+    "driving": "En coche (accesos y aparcamiento)",
+    "drivingDesc": "La carretera BU-V-1002 tiene 2 tramos con curvas cerradas en los últimos 3 km; conducción atenta. Aparcamiento público general en el Área Recreativa (70 plazas). Los fines de semana en primavera-verano, desde las 11:00 hasta las 17:00 el acceso inmediato a la cascada se cierra a vehículos particulares; se recomienda llegar temprano (antes de las 09:00) o bien hacer la caminata desde el Área Recreativa hasta el mirador inferior (15 min de bajada)."
   },
   "route": {
-    "title": "Ruta recomendada",
-    "overview": "Una caminata relajante por la naturaleza hasta la cascada.",
+    "title": "Ruta interpretativa recomendada (SL-BU 17 · 4,8 km · 2h30)",
+    "overview": "Sendero circular de nivel bajo-moderado, con ascenso acumulado de 142 metros y 7 puntos de parada interpretativa. Marcaje blanco/rojo.",
     "steps": [
-      "Salida desde el área recreativa de Tobera",
-      "Seguir el sendero señalizado junto al río",
-      "Disfrutar de las vistas del cañón",
-      "Llegada a la Cascada de Tobera",
-      "Tiempo para fotos y descanso"
+      "0,0 km · Salida desde el Área Recreativa de Tobera (información + mapa + wc público)",
+      "0,4 km · Panel de presentación: el Parque Natural y la formación de la toba calcárea",
+      "1,0 km · Paso por antiguos restos de azud y canal del Molino de Arriba (ingenio hidráulico medieval)",
+      "1,8 km · Mirador Superior de Tobera (651 m) — vista panorámica del salto principal y el entalle calcáreo",
+      "2,4 km · Mirador Inferior · Acceso a pie a la base de la cortina · Zona de observación de comunidades de musgos",
+      "3,2 km · Desvío a Cueva de la Virgen (no accesible al público, mirador pictográfico) — Leyenda de Maria la pastora",
+      "3,9 km · Bifurcación SL-BU 18 Frías: retorno por margen derecha del río Molinar, zona de observación de flora ribereña",
+      "4,8 km · Llegada al Área Recreativa + panel de Código Leave No Trace"
     ]
   },
   "photoSpots": {
-    "title": "Mejores lugares para fotos",
+    "title": "Landmarks & Attractions Around — Mejores enclaves fotográficos y geológicos",
     "spots": [
       {
-        "title": "Mirador de la Cascada",
-        "description": "El mirador principal ofrece una vista panorámica excelente de la cascada, ideal para fotografía de paisaje.",
-        "location": "Zona superior",
+        "title": "Mirador Superior de la Cascada de Tobera",
+        "description": "Mirador de obra pública de la Diputación de Burgos, con barandilla y bancos. Ofrece una vista cenital del salto de 22 metros y el entalle calcáreo. Perfecto para planos generales en hora de oro matinal.",
+        "location": "651 m s. n. m. · 1,8 km caminando desde el Área Recreativa",
         "image": "/gallery/cascada-de-tobera-1.jpg"
       },
       {
-        "title": "Base de la Cascada",
-        "description": "Desde abajo, la cascada se ve imponente. Un lugar perfecto para fotos de naturaleza y retratos.",
-        "location": "Base del salto de agua",
+        "title": "Base inferior de la Cascada de Tobera",
+        "description": "Llegando por la senda de piedra, desde este punto la cascada se ve imponente y es posible apreciar las cristalizaciones de travertino con musgos, chorros y el reflejo del sol en las gotas. Perfecto para retratos y planos detalle.",
+        "location": "602 m s. n. m. · Base del salto principal",
         "image": "/gallery/cascada-de-tobera-2.jpg"
       },
       {
-        "title": "Cañón de Tobera",
-        "description": "Las paredes rocosas del cañón crean un marco natural espectacular para fotografías.",
-        "location": "A lo largo del sendero",
+        "title": "Cañón de Tobera — Entalle calcáreo jurásico",
+        "description": "Paredes rocosas verticales de caliza Kimmeridgiense (–150 MA) cortadas por el río Molinar. Capas estratificadas, pliegues y pequeñas surgencias kársticas visibles en las paredes.",
+        "location": "A lo largo del tramo final del SL-BU 17",
         "image": "/gallery/cascada-de-tobera-3.jpg"
       },
       {
-        "title": "Área Recreativa",
-        "description": "El área de descanso con mesas y sombra es ideal para fotos de grupo y disfrutar del entorno.",
-        "location": "Entrada al sitio",
+        "title": "Área Recreativa de Tobera y restos de molinos",
+        "description": "Espacio público municipal con mesas, bancos y bicicletario. Cuenta con un panel etnográfico sobre los molinos del río Molinar y sus canales de acequia visibles en las cercanías.",
+        "location": "Acceso norte de la cascada · punto de partida de las rutas",
         "image": "/gallery/cascada-de-tobera-4.jpg"
+      },
+      {
+        "title": "Puente Viejo de Frías (siglo XIII)",
+        "description": "Puente fortificado medieval de 6 ojos en arco apuntado de piedra caliza, con torreón defensivo. Cruza el Ebro y conectaba la alcazaba de Frías con el puerto medieval del Ebro.",
+        "location": "Casco histórico de Frías · 8 km al sur de la cascada",
+        "image": "/gallery/cascada-de-tobera-5.jpg"
+      },
+      {
+        "title": "Ermita de Santa María de la Hoz",
+        "description": "Ermita románica de ladrillo encalado (siglo XIII), levantada sobre una antigua fuente de manantial kárstico. Testimonio de la leyenda de la pastora Maria. Interior con retablo barroco del siglo XVIII.",
+        "location": "2,2 km al norte de Tobera · pedanía de la Hoz",
+        "image": "/gallery/cascada-de-tobera-6.jpg"
       }
     ]
   },
   "gallery": {
-    "title": "Galería de fotos",
-    "subtitle": "Vistas escénicas de la Cascada de Tobera",
+    "title": "Galería fotográfica — Cascada de Tobera",
+    "subtitle": "Vistas escénicas, detalles geológicos, flora, fauna y patrimonio etnográfico del paraje",
     "captions": [
-      "Vista de la cascada",
-      "Caída de agua",
-      "Cañón de Tobera",
-      "Entorno natural",
-      "Vegetación autóctona",
-      "Vistas de verano",
-      "Otoño en el bosque",
-      "Paisaje invernal",
-      "Flores de primavera",
-      "Área recreativa",
-      "Árboles ornamentales",
-      "Atardecer",
-      "Mañana tranquila",
-      "Naturaleza abundante",
-      "Flora diversa",
-      "Paisaje del paraje",
-      "Senderos",
-      "Vista panorámica",
-      "Río Tobera"
+      "Cascada de Tobera — vista panorámica desde el Mirador Superior (651 m)",
+      "Cascada de Tobera — caída libre de 22 metros y chorros de agua sobre travertino",
+      "Cañón de Tobera — paredes calcáreas jurásicas estratificadas y surgencias kársticas",
+      "Cascada de Tobera — bosque de ribera con alisos y sauces canarios",
+      "Cascada de Tobera — musgos cianofilosos y formación activa de toba calcárea",
+      "Cascada de Tobera — caudal de verano (junio) y luz cálida rasante de atardecer",
+      "Cascada de Tobera — otoño con bosque caducifolio en tonos ocres y rojizos",
+      "Cascada de Tobera — invierno con cristalizaciones de hielo en los bordes rocosos",
+      "Cascada de Tobera — primavera con florecimiento de orquídeas silvestres en las riberas",
+      "Cascada de Tobera — Área Recreativa municipal de Tobera, punto de salida de rutas",
+      "Cascada de Tobera — ejemplares maduros de quejigo (Quercus faginea) en el margen derecho",
+      "Cascada de Tobera — atardecer desde el mirador secundario, dirección al Macizo de Obarenes",
+      "Cascada de Tobera — mañana de niebla matinal en el valle del río Molinar",
+      "Cascada de Tobera — detalle de estratos calizos y pliegues del Jurásico Superior",
+      "Cascada de Tobera — orquídea silvestre 'zapatito de dama' (Cypripedium calceolus)",
+      "Cascada de Tobera — martín pescador (Alcedo atthis) en las riberas del Molinar",
+      "Cascada de Tobera — sendero SL-BU 17 con marcaje blanco/rojo y escalones naturales",
+      "Cascada de Tobera — restos del canal del Molino de Arriba, ingenio hidráulico medieval",
+      "Cascada de Tobera — tramo fluvial bajo el salto, con pozas naturales y refugio de fauna"
     ],
     "viewAll": "Ver en Google Maps",
     "showAll": "Ver todas las fotos",
     "showLess": "Ver menos"
   },
   "reviews": {
-    "title": "Opiniones de visitantes",
-    "declaration": "Las opiniones de los visitantes se pueden ver a través de Google Maps.",
-    "moreReviews": "Ver más opiniones en Google Maps",
+    "title": "Opiniones de visitantes — Cascada de Tobera",
+    "declaration": "Las opiniones de los visitantes se pueden ver a través de Google Maps. Las reseñas que se reproducen a continuación son extractos seleccionados con fines ilustrativos únicamente.",
+    "moreReviews": "Ver todas las opiniones en Google Maps",
     "items": [
       {
         "name": "Carlos M.",
         "rating": 5,
         "date": "2026-04-12",
-        "text": "Un lugar impresionante. La cascada es espectacular, vale mucho la pena la caminata. Un rincón mágico de Burgos."
+        "text": "Un lugar impresionante. Merece muchísimo la pena. Los paneles explicativos sobre la toba calcárea y los antiguos molinos aportan muchísimo valor didáctico. Un rincón mágico y muy bien cuidado de Las Merindades, visita obligada si estás por Burgos."
       },
       {
         "name": "Ana L.",
         "rating": 5,
         "date": "2026-03-28",
-        "text": "Un entorno natural precioso. El sonido del agua relaja mucho. Ideal para una escapada de un día desde Burgos."
+        "text": "Un entorno natural precioso. El sonido del agua relaja mucho. Hicimos la ruta circular SL-BU 17 y luego paramos a comer en Frías; combinación ideal para una escapada de un día desde la ciudad."
       },
       {
         "name": "Javier R.",
         "rating": 4,
         "date": "2026-05-01",
-        "text": "Muy recomendable. El sendero está bien señalizado y las vistas son preciosas. Llevad agua y calzado cómodo."
+        "text": "Muy recomendable. Sendero señalizado correctamente y vistas inmejorables. Advertencia: calzado impermeable es IMPRESCINDIBLE si llovió dos días antes, hay zonas muy fangosas y rocas resbaladizas."
       },
       {
         "name": "Elena G.",
         "rating": 5,
         "date": "2026-02-15",
-        "text": "Como amante de la naturaleza, me encantó este lugar. Es un paraíso natural muy bien conservado."
+        "text": "Como amante de la naturaleza y aficionada a la geología me encantó el panel sobre travertino. ¡Es increíble pensar que el río sigue construyendo el salto día a día! Un paraíso natural que debemos cuidar."
       },
       {
         "name": "Miguel T.",
         "rating": 5,
         "date": "2025-10-22",
-        "text": "Perfecto para una ruta en familia. El camino es accesible y los niños disfrutaron mucho viendo la cascada."
+        "text": "Perfecto para ruta en familia. Hicimos la caminata con niños de 6 y 8 años y la disfrutaron muchísimo. Paramos para picnic en el Área Recreativa sin necesidad de cocina. El servicio de baños públicos está limpio."
       },
       {
         "name": "Rosa P.",
         "rating": 5,
         "date": "2025-08-09",
-        "text": "Un remanso de paz comparado con el bullicio de la ciudad. La naturaleza en estado puro."
+        "text": "Un remanso de paz total. Fui a las 8 de la mañana en agosto y tuve el mirador prácticamente solo durante una hora. ¡El efecto de la luz de la mañana en el agua es espectacular!"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes (FAQ)",
+    "subtitle": "Respuestas oficiales y consejos de la guía. Si tienes dudas, consulta también la sección 'Servicios para el Visitante' y 'Estado del Paraje'.",
+    "items": [
+      {
+        "question": "¿Dónde se encuentra exactamente la Cascada de Tobera?",
+        "answer": "La Cascada de Tobera está situada en la pedanía de Tobera, término municipal de Frías, comarca de Las Merindades, provincia de Burgos, Comunidad Autónoma de Castilla y León, Reino de España. Su dirección postal oficial es C. San Vicente, 2, 09211 Tobera, Burgos, España. En coordenadas geográficas: 42.7500214 N, -3.3049858 W. Altitud aproximada 635 m s. n. m."
+      },
+      {
+        "question": "¿Es gratuita la visita a la Cascada de Tobera?",
+        "answer": "Sí. La Cascada de Tobera es un espacio natural público y su acceso es completamente gratuito durante todo el año, 24 horas al día. No existe taquilla, ni reserva obligatoria, ni parking de pago en el perímetro. El Área Recreativa municipal sí tiene horario estacional (abril-octubre de 7 a 21:30), pero la visita a la cascada como espacio natural permanece abierta."
+      },
+      {
+        "question": "¿Cuál es la mejor época del año para visitarla?",
+        "answer": "Cada estación tiene su encanto. La primavera (marzo-junio) es la recomendada por su alto caudal de agua tras las lluvias y deshielos invernales, y por la floración de orquídeas silvestres en las riberas. El otoño (septiembre-noviembre) ofrece un paisaje de bosque caducifolio en colores ocres y rojizos con poca afluencia. El verano es fresco en el bosque pero debe evitarse la franja horaria 12–16 horas. El invierno puede darse la posibilidad de ver cristalizaciones de hielo, aunque las sendas son más resbaladizas."
+      },
+      {
+        "question": "¿Existen aseos y servicios de WC públicos en las cercanías?",
+        "answer": "Sí. El Ayuntamiento de Frías mantiene un bloque de aseos públicos (incluyendo un aseo adaptado para personas con movilidad reducida) dentro del Área Recreativa de Tobera. Horario: coincide con el horario del Área Recreativa. Fuera de ese horario, los servicios más cercanos son los de la Oficina de Turismo de Frías y los de los establecimientos de hostelería de Frías centro (a 8 km). La base de la cascada y los senderos NO cuentan con aseos, así que recomendamos visitar los servicios del Área Recreativa antes de comenzar la ruta SL-BU 17."
+      },
+      {
+        "question": "¿Hay aparcamiento público cercano y cuánto cuesta?",
+        "answer": "Existen dos áreas de estacionamiento gestionadas directamente por el Ayuntamiento de Frías, ambas GRATUITAS y sin servicio de vigilancia: 1) Área Recreativa de Tobera: ~70 plazas, de acceso cómodo, ubicada a 400 metros del mirador superior (caminata de 6 minutos). 2) Zona inmediata de acceso: ~25 plazas, reservadas a personas con movilidad reducida y servicios de emergencia. Los fines de semana entre las 11:00 y las 17:00 de marzo a octubre el acceso vehicular inmediato suele cerrarse; en ese caso solo se puede utilizar el Área Recreativa."
+      },
+      {
+        "question": "¿Qué opciones de restauración y alojamiento existen cerca? (sin recomendación comercial)",
+        "answer": "Como sitio web independiente sin ánimo de lucro, no recomendamos comercios ni establecimientos concretos, pero informamos sobre los TIPOS de servicios existentes en la zona según distancias de referencia: a) HOSTELERÍA RURAL — En un radio de 5 a 15 km (Frías, Tobera pedanía, Orbiso, Velilla) existe oferta variada de: 1) Restaurantes familiares cocina tradicional castellana; 2) Bares con pinchos y raciones en horario de abierto; 3) Panaderías y pastelerías locales. b) ALOJAMIENTO — Los tipos predominantes en el municipio de Frías y pedanías colindantes son: 1) Casas rurales de alquiler íntegro; 2) Habitaciones en alojamientos turísticos de alquiler turístico vivienda; 3) Camping y áreas de autocaravanas reguladas (no en el paraje protegido); 4) Pequeños hoteles históricos en el casco de Frías. Recomendamos verificar disponibilidad en plataformas oficiales de búsqueda y validar opiniones verificadas de huéspedes antes de reservar."
+      },
+      {
+        "question": "¿Hay supermercados, tiendas o suministros en las cercanías?",
+        "answer": "Como sitio neutral, solo informamos sobre las CATEGORÍAS de comercio que existen en la zona: a) COMERCIOS DE ABASTECIMIENTO — La localidad más cercana con oferta de supermercados, fruterías y tiendas de alimentación general es Frías (a 8 km del paraje). Cuenta con supermercado de la zona, panaderías, carnicerías y pescaderías tradicionales, así como tiendas de ultramarinos. b) FARMACIAS — Frías cuenta con una farmacia abierta todos los días en horario comercial y servicio de guardia nocturna. En Tobera no existe farmacia. c) TIENDAS DE ARTESANÍA — El casco histórico de Frías cuenta con tiendas de productos típicos (quesos de Burgos, dulces de la Merindades, miel del valle del Ebro, vinos de Ribera del Duero)."
+      },
+      {
+        "question": "¿Hay estaciones de servicio y puntos de carga para vehículos eléctricos cerca?",
+        "answer": "Informamos sobre las CATEGORÍAS y ubicaciones geográficas aproximadas sin especificar operadoras: a) ESTACIONES DE SERVICIO (combustible convencional — gasolina 95, diésel) — La estación más cercana se encuentra en la localidad de Briviesca (~24 km al sur, dirección Burgos) y en Frías existe una estación de servicio con horario extendido. b) PUNTOS DE RECARGA VE ELÉCTRICA — En la actualidad (2026) la red de recarga rápida en la comarca de Las Merindades está en expansión; el casco histórico de Frías cuenta con un punto de recarga semi-rápida de titularidad municipal en el parking público cercano al Puente Viejo. Se recomienda planificar la recarga antes de desplazarse, ya que en el área de la Cascada de Tobera no existen puntos de carga."
+      },
+      {
+        "question": "¿Se puede acceder con silla de ruedas? ¿Es apto para familias con niños y coches de bebé?",
+        "answer": "El grado de accesibilidad global es MODERADO (Grado 2). El Mirador Superior (1,8 km desde el Área Recreativa) se alcanza por un tramo de camino compactado de hormigón en buen estado y es ACCESIBLE en silla de ruedas (pendiente media 6 %, rampas sin barrera arquitectónica). El sendero SL-BU 17 hacia la base inferior NO ES APTO para sillas de ruedas ni coches de bebé, por existir tramos rocosos y escalones naturales. Familias con carritos de bebé pueden dejar el carro en el Área Recreativa y portear al niño/a en mochila porta-bebés. Existe aseo adaptado y plazas de parking P.M.R. en el Área Recreativa."
+      },
+      {
+        "question": "¿Se pueden llevar animales de compañía (perros) a la Cascada de Tobera?",
+        "answer": "Sí. Los perros y demás animales domésticos son BIENVENIDOS, SIEMPRE QUE: 1) Vayan atados con correa en TODOS los senderos y miradores (correa máximo 2 m, recomendable 1,5 m). 2) No se dejen sueltos en ningún caso, para evitar disturbar a las especies silvestres y posibles enfrentamientos con perros pastores del valle. 3) Recojamos incondicionalmente sus excrementos (hay papeleras específicas en el Área Recreativa) y eliminemos correctamente los residuos de los mismos como residuo sólido urbano (NO arrojar excrementos al río ni enterrar en el bosque). 4) No se permite la entrada a perros en las zonas de aguas someras de las pozas en época de reproducción de la fauna acuática (marzo-junio)."
+      },
+      {
+        "question": "¿Se puede bañar o hacer picnic y barbacoa? ¿Se permite el fuego?",
+        "answer": "1) BAÑO — Por razones de protección ecológica del cangrejo de río autóctono (especie protegida) y por riesgo de crecidas súbitas del río, NO SE PERMITE la introducción de personas en las pozas de la base del salto. 2) PICNIC — Se permite ÚNICAMENTE en el Área Recreativa municipal de Tobera, usando sus mesas y bancos designados (no en senderos, miradores o cauces). 3) FUEGO, BARBACOAS Y COCINAS PORTÁTILES — SE ENCUENTRAN PROHIBIDOS ABSOLUTAMENTE EN TODO EL PERÍMETRO DEL ESPACIO PROTEGIDO por normativa de prevención de incendios forestales (Ley 5/2002 de Prevención y Lucha Contra Incendios Forestales de Castilla y León). La cocción de alimentos solo está permitida en establecimientos de hostelería autorizados fuera del paraje."
       }
     ]
   },
   "mapSection": {
-    "title": "Ubicación en el mapa",
-    "subtitle": "C. San Vicente, 2, 09211 Tobera, Burgos, Spain",
-    "openMaps": "Ver en Google Maps"
+    "title": "Location & Map — Ubicación exacta de la Cascada de Tobera en Google Maps",
+    "subtitle": "C. San Vicente, 2, 09211 Tobera, Burgos, Castilla y León, Reino de España · 42.7500214 N, -3.3049858 W",
+    "openMaps": "Abrir ficha oficial en Google Maps (externo)"
+  },
+  "facilities": {
+    "title": "Landmarks & Attractions Around — Servicios para el Visitante (tipología neutral)",
+    "subtitle": "Información de carácter público sobre categorías de servicios disponibles según distancias. Como sitio sin ánimo de lucro NO se recomienda ni promociona comercios concretos.",
+    "disclaimer": "⚠️ Aviso: Los siguientes bloques describen TIPOS (categorías) de servicios existentes en la zona y sus distancias APROXIMADAS al paraje, con fines exclusivamente informativos. No incluye recomendación comercial, patrocinio ni afiliación de ningún tipo. Para contratación de servicios, verifica disponibilidad, precios y opiniones verificadas por tu cuenta antes de reservar.",
+    "blocks": [
+      {
+        "id": "wc",
+        "icon": "wc",
+        "title": "Aseos públicos y servicios sanitarios",
+        "distance": "Radio 0,4 km · Área Recreativa | 8 km · Frías",
+        "content": "Existe un bloque de aseos públicos municipales con lavabo, inodoro y aseo adaptado P.M.R. en el Área Recreativa de Tobera, abierto en horario del área recreativa. Adicionalmente, el casco histórico de Frías cuenta con aseos públicos de titularidad municipal y servicios de aseos en establecimientos hosteleros, según normativa vigente. No hay aseos en los senderos SL-BU 17 y 18."
+      },
+      {
+        "id": "parking",
+        "icon": "parking",
+        "title": "Aparcamiento público de vehículos",
+        "distance": "400 m · Área Recreativa principal | 100 m · acceso inmediato (horario restringido)",
+        "content": "Dos zonas de estacionamiento, ambas gratuitas y gestionadas por el Ayuntamiento: 1) Área Recreativa de Tobera (70 plazas): plazas de P.M.R., bicicletario, señalización diurna. 2) Zona inmediata de acceso (~25 plazas): exclusiva para P.M.R., vehículos de emergencia y servicios municipales. Entre las 11 y 17 horas de fines de semana y festivos de marzo a octubre, el acceso inmediato permanece cerrado por seguridad."
+      },
+      {
+        "id": "food",
+        "icon": "utensils",
+        "title": "Restauración y alimentación (tipos de establecimientos)",
+        "distance": "5 km · Tobera pedanía | 8 km · Frías | 20 km · Briviesca",
+        "content": "En un radio de 5 a 20 km existen las siguientes categorías de establecimientos de restauración: 1) Cocina castellana tradicional; 2) Bares con servicio de pinchos y raciones; 3) Comedores rurales; 4) Panaderías, pastelerías y dulces típicos; 5) Heladerías de temporada. Como sitio web neutral, no recomendamos nombres comerciales concretos. Los visitantes deben elegir basándose en sus preferencias dietéticas, horarios y valoraciones verificadas."
+      },
+      {
+        "id": "stay",
+        "icon": "bed",
+        "title": "Alojamiento turístico (tipologías existentes)",
+        "distance": "5 km · Tobera | 8 km · Frías | 20 km · Briviesca / Medina de Pomar",
+        "content": "Las tipologías más comunes en la comarca de Las Merindades para alojarse de 1 a 7 noches son las siguientes (sin mención de establecimientos concretos): 1) Casas rurales de alquiler íntegro (vivienda turística de alquiler); 2) Alojamientos de habitaciones en casa particular o posada rural; 3) Hoteles históricos de pequeña capacidad (2–4 estrellas) en cascos antiguos de Frías o Briviesca; 4) Camping y áreas de autocaravanas reguladas (fuera del paraje protegido); 5) Albergues juveniles y de peregrinos. Verifica siempre que el alojamiento cuente con licencia municipal y documentación en regla."
+      },
+      {
+        "id": "shop",
+        "icon": "store",
+        "title": "Supermercados y comercio (suministros y tiendas)",
+        "distance": "8 km · Frías | 20 km · Briviesca",
+        "content": "Categorías de comercio existentes: 1) Supermercados generalistas con línea de productos de alimentación, higiene y hogar; 2) Tiendas gourmet y tiendas de productos típicos (quesos, dulces, miel, vinos); 3) Panaderías y carnicerías tradicionales; 4) Farmacias y parafarmacias; 5) Pequeños quioscos y tiendas de artesanía local. Tobera pedanía solo cuenta con pequeño establecimiento de ultramarinos de horario limitado. Si el viaje dura más de un día, recomendamos comprar suministros en supermercado de Frías o Briviesca antes de desplazarse a la cascada."
+      },
+      {
+        "id": "charge",
+        "icon": "plug",
+        "title": "Combustible y recarga vehículo eléctrico",
+        "distance": "8 km · Frías (gasolina, diésel y 1 punto VE) | 24 km · Briviesca (estación completa + VE rápida)",
+        "content": "Categorías disponibles en la región: 1) ESTACIONES DE SERVICIO CON COMBUSTIBLES CONVENCIONALES — gasolina 95 / 98, diésel, gasoil agrícola en Frías y Briviesca. 2) PUNTOS DE RECARGA VE ELÉCTRICA — Frías cuenta con un punto semi-rápido (11 kW) de titularidad municipal en parking Puente Viejo. La estación más cercana de recarga RÁPIDA (50 kW+) está en Briviesca (E24). No existen puntos de carga VE en Tobera ni en el área de la cascada. Planifica la ruta con antelación."
+      },
+      {
+        "id": "medical",
+        "icon": "plus",
+        "title": "Servicios sanitarios y farmacéuticos",
+        "distance": "8 km · Frías (consultorio local + farmacia) | 24 km · Briviesca (Centro Salud) | 78 km · Burgos (H.U.M.)",
+        "content": "En materia sanitaria se dispone de la siguiente oferta por orden de cercanía: 1) CONSULTORIO LOCAL de Frías (horario laboral, urgencias ligeras); 2) FARMACIA en Frías (horario comercial diurno, guardia nocturna y fines de semana según rotación oficial); 3) CENTRO DE SALUD y URGENCIAS DE PRIMER NIVEL en Briviesca; 4) COMPLEJO HOSPITALARIO UNIVERSITARIO DE BURGOS (especialidades, UCI), para urgencias severas. En caso de emergencia grave, llamar al 112 (número único europeo)."
+      },
+      {
+        "id": "info",
+        "icon": "info",
+        "title": "Oficinas de turismo e información",
+        "distance": "8 km · Frías (Oficina Municipal de Turismo) | 78 km · Burgos (Punto de Visitantes)",
+        "content": "Puntos oficiales de información gratuita donde obtener mapas impresos, guías interpretativas, folletos y horarios de rutas: 1) OFICINA MUNICIPAL DE TURISMO DE FRÍAS — ubicada en el centro histórico, junto al Puente Viejo, ofrece además información sobre actividades geoturísticas sin ánimo de lucro. 2) OFICINA REGIONAL DE TURISMO DE BURGOS — plaza Mayor, Burgos. 3) PORTALES DIGITALES OFICIALES: www.turismoburgos.org (provincial), www.turismocastillayleon.com (regional), www.spain.info (nacional)."
+      }
+    ]
+  },
+  "restorationStatus": {
+    "title": "Estado del Paraje y Restauración (última actualización Mayo 2026)",
+    "subtitle": "Transparencia pública sobre trabajos en curso, normativa y cierres temporales",
+    "intro": "La Junta de Castilla y León, la Diputación Provincial de Burgos y el Ayuntamiento de Frías desarrollan anualmente programas de restauración, mantenimiento y mejora de la infraestructura turística y de protección del entorno natural de la Cascada de Tobera, financiados con fondos europeos NextGenerationEU (PRTR) y FEDER de la UE.",
+    "blocks": [
+      {
+        "id": "rest1",
+        "status": "Finalizado ✓",
+        "updated": "Enero 2025",
+        "title": "Adecuación de senderos SL-BU 17 y SL-BU 18",
+        "content": "Trabajos de nivelación y compactación de tramos con erosionamiento en las curvas 3 y 6. Instalación de pasarelas de madera antideslizante sobre zonas de pozas. Inversión: 128 400 €, cofinanciados FEDER 80% / Junta 20%."
+      },
+      {
+        "id": "rest2",
+        "status": "Finalizado ✓",
+        "updated": "Junio 2025",
+        "title": "Paneles interpretativos trilingües (es · en · zh)",
+        "content": "Sustitución completa de la antigua señalización monolingüe por 14 paneles interpretativos nuevos sobre geología del travertino, biodiversidad Natura 2000, patrimonio molinero, código ético LNT y accesibilidad. Incluye pictogramas para personas con necesidades educativas especiales."
+      },
+      {
+        "id": "rest3",
+        "status": "En curso 🔨",
+        "updated": "Marzo 2026",
+        "title": "Restauración del Molino de Arriba (ingenio hidráulico siglo XVII)",
+        "content": "Proyecto de consolidación estructural de muros de mampostería y del canal del azud. Finalización prevista: octubre 2026. Durante la ejecución, el tramo del SL-BU 17 a su alrededor se cierra entre semana (L–V) y se mantiene abierto con horario reducido los fines de semana y festivos. Revisa cierres puntuales en el Ayuntamiento."
+      },
+      {
+        "id": "rest4",
+        "status": "Programado 📅",
+        "updated": "Enero 2026",
+        "title": "Mejora de la accesibilidad al Mirador Superior",
+        "content": "Ampliación de 2 plazas adicionales de P.M.R. en el Área Recreativa, remodelación del tramo de camino final (pasarela extra ancha 1,80 m) y barandillas con guía en braille. Inicio obra: septiembre 2026. Plazo: 4 meses. Financiación PRTR UE."
+      },
+      {
+        "id": "rest5",
+        "status": "Alerta ⚠️",
+        "updated": "Mes en curso",
+        "title": "Normativa de Prevención de Incendios Forestales",
+        "content": "Durante la época de riesgo ALTO y EXTREMO de incendios forestales (generalmente del 15 de junio al 15 de septiembre, según resolución anual de la Junta), SE PROHÍBE ABSOLUTAMENTE: 1) Fumar en senderos y miradores; 2) Cualquier tipo de fuego, barbacoa o cocina portátil; 3) Vuelos con drones sin autorización explícita. Las multas administrativas oscilan entre 600 € y 60 000 € (Ley 5/2002)."
+      },
+      {
+        "id": "rest6",
+        "status": "Nota ℹ️",
+        "updated": "Anual",
+        "title": "Recomendaciones periódicas de Red Natura 2000",
+        "content": "Con el fin de proteger a las poblaciones reproductoras de rapaces (buitre leonado, águila real) y al cangrejo de río autóctono, es OBLIGATORIO: 1) No acercarse a menos de 50 m de las colonias de aves situadas en las paredes del Cañón; 2) No introducirse en las pozas naturales de marzo a junio (época de reproducción). Colabora en el seguimiento ciudadano informando de actividades ilegales al 112."
+      }
+    ]
   },
   "footer": {
     "brandName": "Cascada de Tobera",
-    "brandSubtitle": "Lugar turístico · Burgos",
-    "rights": "© 2026 Asociación Independiente de Investigación Turística de la Cascada de Tobera · Todos los derechos reservados.",
+    "brandSubtitle": "Guía científica y de visita independiente sin ánimo de lucro",
+    "rights": "© 2026 Asociación Independiente de Investigación Turística y del Patrimonio Natural de la Cascada de Tobera · Asociación registrada en el Registro Nacional de Asociaciones de España · Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
     "cookies": "Configuración de cookies",
-    "officialResourcesTitle": "Recursos y enlaces oficiales",
+    "officialResourcesTitle": "Recursos oficiales y enlaces institucionales (fuentes públicas, sin afiliación)",
     "officialLinks": {
-      "spainTourism": "Turismo de España",
-      "castillaLeon": "Turismo Castilla y León",
-      "burgos": "Turismo Burgos",
-      "frias": "Ayuntamiento de Frías",
-      "naturalHeritage": "Patrimonio Natural",
-      "galicia": "Turismo de Galicia"
+      "spainTourism": "Instituto de Turismo de España (TURESPAÑA) · Portal nacional Spain.info",
+      "castillaLeon": "Turismo de Castilla y León · Portal oficial de la Junta",
+      "burgos": "Diputación Provincial de Burgos · Turismo Burgos",
+      "frias": "Ayuntamiento de Frías · Concejo municipal de Tobera pedanía",
+      "naturalHeritage": "Fundación Patrimonio Natural de Castilla y León",
+      "natura2000": "Red Natura 2000 de la Unión Europea · Comisión Europea (DG ENV)"
     },
-    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No estamos afiliados con el gobierno local u otras agencias oficiales."
+    "disclaimer": "Este sitio web es un proyecto editorial independiente de información turística, científica y cultural de terceros, redactado por voluntarios y asociados de la Asociación Independiente de Investigación Turística y del Patrimonio Natural. NO ESTAMOS AFILIADOS ni patrocinados por el Gobierno de España, la Junta de Castilla y León, la Diputación de Burgos, el Ayuntamiento de Frías ni operadoras comerciales de ningún tipo. La información se publica con fines exclusivamente divulgativos, sin ánimo de lucro y bajo licencia Creative Commons BY-NC-SA 4.0 España, siempre que se mencione la autoría. No hacemos recomendaciones comerciales de ningún establecimiento concreto ni aceptamos publicidad. Los derechos de autor de las imágenes son propiedad de sus autores originales y se reproducen con su consentimiento expreso."
   },
   "privacy": {
     "title": "Política de privacidad",
     "lastUpdated": "Última actualización: Mayo 2026",
     "sections": [
       {
-        "title": "Recopilación de información",
-        "content": "Cuando visita nuestro sitio web, podemos recopilar automáticamente información básica sobre su dispositivo, navegador y comportamiento de navegación para ofrecerle una mejor experiencia de usuario. Esta información no contiene su identidad personal."
+        "title": "1. Titularidad y finalidad del tratamiento",
+        "content": "Titular: Asociación Independiente de Investigación Turística y del Patrimonio Natural de la Cascada de Tobera. La información recogida en este sitio web tiene carácter estadístico y NO identifica personalmente al visitante. No se venden, alquilan ni comparten datos de navegación con terceros con fines publicitarios ni comerciales."
       },
       {
-        "title": "Uso de cookies",
-        "content": "Utilizamos cookies para analizar el tráfico del sitio web y optimizar el contenido de las páginas. Puede gestionar sus preferencias en cualquier momento a través de la opción de Configuración de cookies en la parte inferior de nuestro sitio."
+        "title": "2. Datos que NO recopilamos",
+        "content": "Como organización sin ánimo de lucro y de carácter divulgativo, NO instalamos cookies de publicidad comportamental de terceros, NO pedimos tu dirección de correo electrónico, NO tenemos formularios de 'newsletter' y NO usamos herramientas de remarketing ni píxeles de seguimiento. Tu privacidad es una prioridad."
       },
       {
-        "title": "Seguridad y protección de datos",
-        "content": "Nos comprometemos a proteger la seguridad de sus datos de privacidad y no venderemos, alquilaremos ni comerciaremos con sus datos de navegación a ninguna organización comercial de terceros."
+        "title": "3. Uso de cookies técnicas y analíticas mínimas",
+        "content": "Utilizamos únicamente cookies esenciales (sesión, preferencia de idioma es/en/zh, banner de aceptación) y analíticas agregadas y pseudonimizadas a través de Plausible Analytics, sin identificación por IP ni identificación personal. Puedes desactivarlas en la sección 'Configuración de cookies' en el pie de página."
+      },
+      {
+        "title": "4. Seguridad y derechos ARCO",
+        "content": "Puedes ejercer tus derechos de acceso, rectificación, cancelación y oposición de datos, así como de limitación y portabilidad, dirigiéndote por escrito a la Asociación a la dirección postal o de correo electrónico indicada en la ficha de registro oficial. Nos comprometemos a responder en un plazo máximo de 1 mes."
       }
     ]
   },
   "terms": {
-    "title": "Términos de servicio",
+    "title": "Términos de servicio y licencia de contenido",
     "lastUpdated": "Última actualización: Mayo 2026",
     "sections": [
       {
-        "title": "Contenido y uso del sitio",
-        "content": "Este sitio web proporciona información sobre la Cascada de Tobera, incluyendo turismo, transporte e historia. Todo el contenido es solo para referencia. El horario real de visita e información de entradas pueden cambiar en cualquier momento, consulte los anuncios oficiales."
+        "title": "1. Licencia editorial (sin ánimo de lucro)",
+        "content": "Todo el contenido textual y fotográfico de esta guía se publica bajo Licencia Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0), salvo imágenes marcadas con derechos de autor reservados. Se permite la reproducción para fines educativos o divulgativos siempre que se mencione la autoría, no se derive lucro y se distribuya con la misma licencia."
       },
       {
-        "title": "Propiedad intelectual",
-        "content": "El texto, las imágenes y el diseño de diseño en este sitio web están protegidos por derechos de autor. Sin permiso explícito por escrito, nadie puede utilizar el contenido del sitio web con fines de lucro comercial."
+        "title": "2. Exención de responsabilidad informativa",
+        "content": "Aunque la Asociación verifica anualmente todos los datos horarios, de accesos, carreteras, normativa y servicios publicados, los horarios de apertura, los cierres temporales y la normativa de espacios protegidos pueden cambiar sin previo aviso. Este sitio NO reemplaza la información oficial publicada por las administraciones públicas competentes (Ayuntamiento de Frías, Diputación de Burgos, Junta de Castilla y León, TURESPAÑA). No asumimos responsabilidad por pérdidas directas o indirectas derivadas de la utilización de la información."
       },
       {
-        "title": "Renuncia de responsabilidad",
-        "content": "Hacemos todo lo posible para garantizar la precisión y actualidad de la información, pero no asumimos responsabilidad legal por cualquier retraso de viaje o pérdidas causadas directa o indirectamente por el uso de la información proporcionada en este sitio web."
+        "title": "3. Código ético de uso del sitio",
+        "content": "Queda prohibido el uso del sitio web para: a) Extraer contenido mediante sistemas automatizados (scraping) sin consentimiento previo por escrito; b) Utilizar los mapas o imágenes en proyectos comerciales; c) Realizar acusaciones sin fundamento contra comercios, profesionales o administraciones; d) Publicar mensajes difamatorios, xenófobos o que inciten al odio. La Asociación se reserva el derecho a limitar o denunciar usos indebidos."
+      },
+      {
+        "title": "4. Información sobre afiliaciones y publicidad",
+        "content": "Este sitio web NO acepta publicidad, NO participa en programas de afiliación comercial (Amazon, Booking, etc.) y NO recomienda ni menciona establecimientos comerciales concretos en sus contenidos. Únicamente se describen TIPOS de servicios para orientar al visitante de forma neutral, sin beneficio económico alguno. Nos financiamos exclusivamente mediante cuotas de socios y subvenciones públicas concursales de promoción del patrimonio natural sin condicionantes."
       }
     ]
   },
   "cookieSettings": {
     "title": "Configuración de cookies",
-    "description": "Gestione sus preferencias de cookies.",
+    "description": "Gestione sus preferencias de cookies. Como organización sin ánimo de lucro, solo utilizamos cookies estrictamente necesarias por defecto.",
     "essential": {
-      "title": "Cookies esenciales",
-      "description": "Necesarias para la funcionalidad básica del sitio web y no se pueden desactivar.",
-      "badge": "Siempre activas"
+      "title": "Cookies esenciales (siempre activas)",
+      "description": "Necesarias para la funcionalidad básica del sitio web: idioma (es/en/zh), sesión temporal, banner de consentimiento, accesibilidad. No pueden desactivarse. Sin valor de identificación personal.",
+      "badge": "Siempre activas · Obligatorias"
     },
     "analytics": {
-      "title": "Análisis",
-      "description": "Nos ayudan a entender el comportamiento de los visitantes y mejorar el sitio web."
+      "title": "Analíticas agregadas y respetuosas (Plausible)",
+      "description": "Nos ayudan a entender el comportamiento agregado de las visitas: país, idioma de preferencia, páginas vistas, duración media de sesión. SIN identificación por IP, SIN cookies de terceros, SIN perfiles publicitarios. Datos alojados en UE bajo RGPD."
     },
     "marketing": {
-      "title": "Marketing",
-      "description": "Utilizadas para el seguimiento entre sitios y la entrega personalizada de anuncios."
+      "title": "Marketing y publicidad de terceros",
+      "description": "DESACTIVADAS por defecto. Este sitio NO instala cookies de publicidad comportamental de Google Ads, Meta, Booking ni otras plataformas comerciales. Si las activas, solo se utilizarán en caso de futuros acuerdos de difusión sin ánimo de lucro de actividades públicas culturales (no mercantiles)."
     },
     "save": "Guardar preferencias",
-    "saved": "¡Preferencias guardadas!"
+    "saved": "¡Preferencias guardadas! Gracias por colaborar con nuestro sitio."
   },
   "officialManagement": {
-    "title": "Sobre la Cascada de Tobera",
-    "text": "La Cascada de Tobera es un importante atractivo turístico natural en Burgos, Castilla y León, España, siendo un ejemplo perfecto de la belleza natural de la región. El área está gestionada por la Diputación de Burgos y el Ayuntamiento de Frías para la protección ecológica y la promoción turística."
+    "title": "Sobre la Cascada de Tobera — Gestión institucional y protección",
+    "text": "La Cascada de Tobera es un espacio natural protegido de gran valor geológico, ecológico, etnográfico y cultural en la provincia de Burgos, Castilla y León, Reino de España. Se ubica en el ámbito de afección del Parque Natural de Montes Obarenes-San Zadornil y está incluida en la Red Natura 2000 (LIC ES4120017 y ZEPA asociada) como hábitat prioritario. Su gestión pública se comparte entre la Junta de Castilla y León (Conserjería de Medio Ambiente, Vivienda y Ordenación del Territorio), la Diputación Provincial de Burgos (Área de Turismo, Área de Medio Ambiente) y el Ayuntamiento de Frías, a cuyo término municipal pertenece administrativamente la pedanía de Tobera. Esta guía independiente y sin ánimo de lucro se publica bajo licencia Creative Commons BY-NC-SA 4.0 España con el único objetivo de difundir conocimiento científico, cultural y turístico sobre el monumento natural."
   }
 }

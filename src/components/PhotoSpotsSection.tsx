@@ -1,11 +1,19 @@
 'use client';
 
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
+
+const ALT_I18N: Record<string, (title: string) => string> = {
+  es: (title) => `${title} — cerca de la Cascada de Tobera, Burgos`,
+  en: (title) => `${title} — near Cascada de Tobera in Tobera, Burgos, Spain`,
+  zh: (title) => `${title} — 邻近托贝拉瀑布 Cascada de Tobera（西班牙布尔戈斯）`,
+};
 
 export default function PhotoSpotsSection() {
   const t = useTranslations('photoSpots');
   const messages = useMessages() as any;
+  const locale = useLocale();
   const spots = (messages?.photoSpots?.spots || []) as Array<{ title: string; description: string; image?: string; location?: string }>;
+  const altFn = ALT_I18N[locale] || ALT_I18N.es;
 
   return (
     <section className="section-padding">
@@ -27,6 +35,7 @@ export default function PhotoSpotsSection() {
               image={spot.image}
               location={spot.location}
               index={index + 1}
+              altFn={altFn}
             />
           ))}
         </div>
@@ -35,19 +44,40 @@ export default function PhotoSpotsSection() {
   );
 }
 
-function PhotoSpotCard({ title, description, image, location, index }: { title: string; description: string; image?: string; location?: string; index: number }) {
+function PhotoSpotCard({
+  title,
+  description,
+  image,
+  location,
+  index,
+  altFn,
+}: {
+  title: string;
+  description: string;
+  image?: string;
+  location?: string;
+  index: number;
+  altFn: (title: string) => string;
+}) {
   return (
     <div
       className="rounded-xl overflow-hidden"
-      style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+      style={{
+        background: 'var(--bg-tertiary)',
+        border: '1px solid var(--border-color)',
+      }}
     >
-      {/* Image area */}
       <div
         className="aspect-video relative flex items-center justify-center overflow-hidden"
         style={{ background: 'linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary))' }}
       >
         {image ? (
-          <img src={image} alt={title} className="w-full h-full object-cover transition-transform hover:scale-105" loading="lazy" />
+          <img
+            src={image}
+            alt={altFn(title)}
+            className="w-full h-full object-cover transition-transform hover:scale-105"
+            loading="lazy"
+          />
         ) : (
           <div className="text-center">
             <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" strokeWidth="1.5" className="mx-auto mb-2 opacity-50">
