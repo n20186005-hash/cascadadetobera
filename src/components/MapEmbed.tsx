@@ -10,7 +10,7 @@ const OFFICIAL_URLS = [
 ];
 
 const MAPS_EMBED_SRC =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5211.098599278844!2d-3.3049858!3d42.7500214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f6c31bfc6e4b7%3A0x17267225826c5ebd!2sCascada%20de%20Tobera!5e1!3m2!1ses!2ses!4v1787917182553!5m2!1ses!2ses';
+  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5211.098599278844!2d-3.3049858!3d42.7500214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4f6c31bfc6e4b7%3A0x17267225826c5ebd!2sCascada%20de%20Tobera!5e1!3m2!1szh-CN!2s!4v1788145426607!5m2!1szh-CN!2s';
 
 const ALT_I18N: Record<string, string> = {
   es: 'Mapa de ubicación de la Cascada de Tobera en Tobera, Burgos, España',

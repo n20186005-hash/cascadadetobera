@@ -2,6 +2,7 @@ import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
+import CulturalTimeline from '@/components/CulturalTimeline';
 import BasicInfo from '@/components/BasicInfo';
 import HoursSection from '@/components/HoursSection';
 import TicketsSection from '@/components/TicketsSection';
@@ -14,6 +15,7 @@ import Reviews from '@/components/Reviews';
 import FacilitiesSection from '@/components/FacilitiesSection';
 import RestorationStatusSection from '@/components/RestorationStatusSection';
 import FAQSection from '@/components/FAQSection';
+import CitationsSection from '@/components/CitationsSection';
 import MapEmbed from '@/components/MapEmbed';
 import Footer from '@/components/Footer';
 
@@ -31,6 +33,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <CulturalTimeline />
         <BasicInfo />
         <HoursSection />
         <TicketsSection />
@@ -43,6 +46,7 @@ export default async function HomePage({
         <FacilitiesSection />
         <RestorationStatusSection />
         <FAQSection />
+        <CitationsSection />
         <MapEmbed />
       </main>
       <Footer />

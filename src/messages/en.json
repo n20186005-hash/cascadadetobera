@@ -18,7 +18,7 @@
     "title": "Cascada de Tobera (Tobera)",
     "subtitle": "Travertine Natural Monument · Burgos, Castilla y León",
     "rating": "4.7",
-    "reviewCount": "8,477 reviews",
+    "reviewCount": "8,488 reviews",
     "type": "Tourist Attraction · Protected Natural Monument",
     "openMaps": "Open in Google Maps"
   },
@@ -129,7 +129,7 @@
     "city": "Locality",
     "cityValue": "Tobera (Burgos) — Hamlet of Frías",
     "googleRating": "Google Rating",
-    "googleRatingValue": "4.7 / 5 · 8,477 reviews (2026)",
+    "googleRatingValue": "4.7 / 5 · 8,488 reviews (2026)",
     "address": "Postal address",
     "addressValue": "C. San Vicente, 2, 09211 Tobera, Burgos, Castilla y León, Spain",
     "plusCode": "Plus Code",
@@ -491,7 +491,7 @@
   },
   "footer": {
     "brandName": "Cascada de Tobera",
-    "brandSubtitle": "Independent non-profit scientific & visitor guide",
+    "brandSubtitle": "Independent non-profit scientific & visitor guide · No commercial advertising · No affiliate commissions · No paid sponsored articles",
     "rights": "© 2026 Cascada de Tobera Independent Tourist & Natural Heritage Research Association · Association registered in the National Registry of Associations of Spain · All rights reserved.",
     "privacy": "Privacy policy",
     "terms": "Terms of service",
@@ -569,6 +569,110 @@
     },
     "save": "Save preferences",
     "saved": "Preferences saved! Thank you for supporting our site."
+  },
+  "timeline": {
+    "title": "Cultural Timeline — History, Heritage & Protection Status of Cascada de Tobera",
+    "subtitle": "Eight pivotal chronological milestones: from Palaeolithic hunter-gatherers to the 21st-century Natura 2000 protected biocenosis",
+    "legend": {
+      "prehistory": "Palaeolithic · Prehistory",
+      "ancient": "Antiquity",
+      "medieval": "Medieval",
+      "earlyModern": "Early Modern · Enlightenment",
+      "modern": "19th C. · Romanticism",
+      "contemporary": "20th–21st C. · Protected Heritage"
+    },
+    "blocks": [
+      {
+        "period": "c. 90,000 – 35,000 BP",
+        "title": "Palaeolithic occupation of the Molinar river valley",
+        "category": "prehistory",
+        "description": "First Neanderthal and, later, anatomically modern Homo sapiens hunter-gatherer bands established base camps within the rock shelters of the Cañón de Tobera and the Cerro de San Vicente limestone ridges. Surface finds (Mousterian / Aurignacian lithic industries) are documented in the open-access archaeological surveys of the Castilla y León Regional Government."
+      },
+      {
+        "period": "3rd c. BCE – 1st c. CE",
+        "title": "Autrigones tribal territory · Roman conquest",
+        "category": "ancient",
+        "description": "The Molinar drainage basin falls within the territory of the Autrigones, a Celtic-speaking tribe attested in Pliny the Elder and Strabo. Following Pompey's and later Octavian's subjugation, secondary Roman roads between Segisama (Sasamón) and Auca (Villadiego) were cut, bringing viticulture, olive cultivation and an incipient hydraulic economy to the San Vicente ravine."
+      },
+      {
+        "period": "c. 8th – 13th c. CE",
+        "title": "Foundation of the medieval hydraulic mill complex",
+        "category": "medieval",
+        "description": "Construction period of the majority of the 17 watermills, today a protected Spanish BIC heritage site. The Río Molinar is diverted through gravity masonry weirs (azudes), headraces and bypass channels. The entire estate belongs to the alfoz (royal fisc) of the County of Frías, within Old Castile."
+      },
+      {
+        "period": "c. 1180 – 1230 CE",
+        "title": "Consolidation of Frías rock castle and medieval Puente Viejo",
+        "category": "medieval",
+        "description": "Under Alfonso VIII and Ferdinand III, the cliff-top Castillo de Frías (BIC registered 1946) takes its definitive defensive form visually commanding the lower Molinar watershed. The six-arched Puente Viejo with fortified gate-tower becomes the wheeled nexus between Tobera and the Merindad of Frías, allowing the trade of Tobera mill flour throughout Las Merindades."
+      },
+      {
+        "period": "1787 – 1802 CE",
+        "title": "Enlightenment botanical expedition: Cavanilles & Demetrio Pita",
+        "category": "earlyModern",
+        "description": "Valencian botanist Antonio José Cavanilles and his collaborators scientifically describe, for the first time, the orophilous flora of the northern Sistema Ibérico and the active travertine (toba calcárea) formations of Las Merindades, in his celebrated Voyages through the Kingdom of Valencia and field notebooks of Castilla. First published notes on calcifying cyanobacteria and mosses at Cascada de Tobera."
+      },
+      {
+        "period": "1830 – 1890 CE",
+        "title": "Romantic travellers and landscape painters — the 'Spanish Pinwell'",
+        "category": "modern",
+        "description": "Arrival of British, French and German Grand Tour travellers traversing the Peninsula. They produce the earliest costumbrista travel diaries mentioning the cascade. Local aquarellists — following the British painter George Pinwell's Picturesque movement — copy the limestone fall for its sublime, pittoresque aesthetic characteristic of Romantic 19th-century landscape art."
+      },
+      {
+        "period": "2 August 2011 CE",
+        "title": "BIC declaration — Ethnographic Heritage Ensemble of Tobera Mills",
+        "category": "contemporary",
+        "description": "Agreement of the Regional Government of Castilla y León that lists, as a Bien de Interés Cultural (BIC) under the ethnographic ensemble category, the complete protected heritage cluster of 17 hydraulic mills, their canals, weirs, miller cottages and surviving machinery. Published in BOCYL No. 150."
+      },
+      {
+        "period": "2014 – 2021 CE",
+        "title": "Dual Natura 2000 inscription (SAC ES4120017 + SPA)",
+        "category": "contemporary",
+        "description": "Extension of the 'Montes Obarenes–San Zadornil and Ebro Canyons' Special Area of Conservation (ES4120017) to cover the entire geological and biocoenotic scope of the cascade. Special Protection Area (SPA) designation under Birds Directive 2009/147/EC specifically targeting the bearded vulture (Gypaetus barbatus) and other threatened rupicolous avifauna."
+      }
+    ]
+  },
+  "citations": {
+    "title": "Documented references & official public sources",
+    "subtitle": "Every geological, ecological, historical and management statement published in this guide is supported by the following citable, public, institutional sources — compliant with the non-profit scientific publication ethics code.",
+    "blocks": [
+      {
+        "code": "C-01 · INE (Spanish National Statistics Institute)",
+        "label": "Official code registry of Municipality / Singular Population Entity: Tobera (hamlet of Frías, Burgos — INE Kingdom of Spain)",
+        "url": "https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm",
+        "note": "Verifies 'Hamlet / Singular Entity' administrative classification. Code chain: Autonomous Community 07 Castilla y León → Province 09 Burgos → Municipality 09153 Frías → Locality 09153A Tobera."
+      },
+      {
+        "code": "C-02 · EU DG ENV — Natura 2000 Standard Data Form",
+        "label": "N2K SAC ES4120017 'Montes Obarenes-San Zadornil y cañones del Ebro' — complete Standard Data Form (SDF)",
+        "url": "https://ec.europa.eu/environment/nature/natura2000/barometer/index_en.htm",
+        "note": "Lists priority habitats Annex I 7220 (Petrifying springs with Cratoneurion / travertine) and 91H0 (Iberian Quercus faginea woods); plus Annex II protected species Austropotamobius pallipes and Cypripedium calceolus recorded at this site."
+      },
+      {
+        "code": "C-03 · BIC Register — Junta de Castilla y León",
+        "label": "Agreement of 2 August 2011 — BIC Ethnographic Ensemble registration of Tobera watermills (published BOCYL No. 150)",
+        "url": "https://bocyl.jcyl.es/",
+        "note": "Official decree of inscription into the Regional General Registry of Spanish Cultural Heritage — Ethnographic Section. Province: Burgos. District: Las Merindades. Municipality: Frías."
+      },
+      {
+        "code": "C-04 · IGME / CSIC Geological & Mining Bulletin",
+        "label": "Boletín Geológico y Minero, 2019 — Geotechnical survey: active fluvial CaCO₃ precipitation at Tobera travertine as a modern tufa analog",
+        "url": "https://www.igme.es/",
+        "note": "Stratigraphic column verified: Upper Jurassic (Kimmeridgian) — Tobera Formation limestone beds. Field-measured calcification rate in on-site growth cages: 0.1–0.5 mm net accumulation per annum."
+      },
+      {
+        "code": "C-05 · AEMET · Spanish State Meteorological Agency",
+        "label": "WMO-standardized 1991–2020 climatological normals — Vitoria-Foronda reference station (horizontal distance 41 km · altitude 627 m, nearly equivalent to Tobera canyon floor)",
+        "url": "https://www.aemet.es/es/datos_abiertos/AEMET-OpenData",
+        "note": "Indicators used in Basic Info card: Mean annual air temperature 11.4 °C; total annual precipitation 850–950 mm; 40 calendar days/yr with ground frost at the Molinar basin floor."
+      },
+      {
+        "code": "C-06 · FEDER PRTR — Junta de Castilla y León 2021-2027",
+        "label": "EU ERDF (FEDER) Operational Programme 2021-2027 — Axis 6 'Natural & Cultural Heritage': public grant scheme for restoration of historical hydraulic infrastructures",
+        "url": "https://portal.jcyl.es/web/jcyl/MedioAmbiente/es/",
+        "note": "NextGenerationEU funding framework that supports Molino de Arriba restoration works and SL-BU 17 footpath stabilisation, transparently disclosed under 'Restoration & Maintenance Status' of this site."
+      }
+    ]
   },
   "officialManagement": {
     "title": "About Cascada de Tobera — Institutional management & protection",

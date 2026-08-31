@@ -9,12 +9,22 @@ const ATTRACTION_FULL_NAME = 'Cascada de Tobera';
 const ATTRACTION_SHORT_NAME = 'Cascada de Tobera';
 const CITY_NAME = 'Tobera';
 const STATE_PROVINCE = 'Burgos';
+const STATE_REGION = 'Castilla y León';
+const COUNTRY_NAME_ES = 'España';
+const COUNTRY_NAME_EN = 'Spain';
+const COUNTRY_NAME_ZH = '西班牙';
 const COUNTRY_CODE_2LETTER = 'ES';
 const POSTAL_CODE = '09211';
 const LATITUDE = 42.7500214;
 const LONGITUDE = -3.3049858;
 const MAPS_SHARE_URL = 'https://maps.app.goo.gl/7X96TBmK29sVp9Wp7';
 const GOVT_TOURISM_URL = 'https://turismoburgos.org/';
+const NEARBY_LANDMARK_1_ES = 'Cañón de Tobera';
+const NEARBY_LANDMARK_1_EN = 'Cañón de Tobera';
+const NEARBY_LANDMARK_1_ZH = 'Cañón de Tobera（托贝拉峡谷）';
+const NEARBY_LANDMARK_2_ES = 'Puente Viejo de Frías';
+const NEARBY_LANDMARK_2_EN = 'Puente Viejo de Frías (Old Bridge)';
+const NEARBY_LANDMARK_2_ZH = 'Puente Viejo de Frías（弗里亚斯老桥）';
 const HERO_IMAGE_URL = `https://${DOMAIN_NAME}/gallery/cascada-de-tobera-1.jpg`;
 
 const LOCALE_DATA: Record<string, {
@@ -32,13 +42,13 @@ const LOCALE_DATA: Record<string, {
   es: {
     ogLocale: 'es_ES',
     htmlLang: 'es',
-    countryName: 'España',
+    countryName: COUNTRY_NAME_ES,
     metaTitle: 'Cascada de Tobera (Tobera) - Guía del Visitante y Ubicación',
-    metaDescription: 'Descubre la Cascada de Tobera, el emblemático monumento natural en Tobera, Burgos, España. Consulta el mapa de ubicación, horarios, el Cañón de Tobera cercano y consejos de viaje.',
-    ogTitle: 'Cascada de Tobera - Guía de Viaje de Tobera',
-    ogDescription: 'Guía oficial de visitantes de la Cascada de Tobera en Tobera, Burgos, España.',
-    nearby1: 'Cañón de Tobera',
-    nearby2: 'Puente Viejo de Frías',
+    metaDescription: `Descubre ${ATTRACTION_FULL_NAME}, el emblemático monumento natural de travertino en ${CITY_NAME}, ${STATE_PROVINCE}, ${COUNTRY_NAME_ES}. Consulta el mapa de ubicación, horarios, servicios al visitante, el ${NEARBY_LANDMARK_1_ES} cercano y consejos LNT de viaje por Las Merindades.`,
+    ogTitle: `Cascada de Tobera - Guía de Viaje de ${CITY_NAME}, ${STATE_PROVINCE}`,
+    ogDescription: `Guía oficial de visitantes de ${ATTRACTION_FULL_NAME} en ${CITY_NAME}, ${STATE_PROVINCE}, ${COUNTRY_NAME_ES}. Ubicación, flora y fauna protegida Natura 2000 (ES4120017) y acceso.`,
+    nearby1: NEARBY_LANDMARK_1_ES,
+    nearby2: NEARBY_LANDMARK_2_ES,
     faq: [
       {
         q: '¿Dónde se encuentra exactamente la Cascada de Tobera?',
@@ -89,13 +99,13 @@ const LOCALE_DATA: Record<string, {
   en: {
     ogLocale: 'en_US',
     htmlLang: 'en',
-    countryName: 'Spain',
+    countryName: COUNTRY_NAME_EN,
     metaTitle: 'Cascada de Tobera (Tobera) - Visitor Guide & Location',
-    metaDescription: 'Discover Cascada de Tobera, the iconic natural landmark in Tobera, Burgos, Spain. View location map, opening details, nearby Tobera Canyon, and travel tips.',
-    ogTitle: 'Cascada de Tobera - Tobera Travel Guide',
-    ogDescription: 'Official visitor guide to Cascada de Tobera in Tobera, Burgos, Spain.',
-    nearby1: 'Tobera Canyon',
-    nearby2: 'Frías Old Bridge',
+    metaDescription: `Discover ${ATTRACTION_FULL_NAME}, the iconic travertine natural monument in ${CITY_NAME}, ${STATE_PROVINCE}, ${COUNTRY_NAME_EN}. View location map, opening details, visitor services, nearby ${NEARBY_LANDMARK_1_EN}, and Leave No Trace travel tips for Las Merindades.`,
+    ogTitle: `Cascada de Tobera - ${CITY_NAME}, ${STATE_PROVINCE} Travel Guide`,
+    ogDescription: `Official visitor guide to ${ATTRACTION_FULL_NAME} in ${CITY_NAME}, ${STATE_PROVINCE}, ${COUNTRY_NAME_EN}. Natura 2000 (ES4120017) protected flora & fauna, access & geology.`,
+    nearby1: NEARBY_LANDMARK_1_EN,
+    nearby2: NEARBY_LANDMARK_2_EN,
     faq: [
       {
         q: 'Where exactly is Cascada de Tobera located?',
@@ -146,13 +156,13 @@ const LOCALE_DATA: Record<string, {
   zh: {
     ogLocale: 'zh_CN',
     htmlLang: 'zh-CN',
-    countryName: '西班牙',
-    metaTitle: '托贝拉瀑布 Cascada de Tobera (托贝拉) - 游客指南与位置地图',
-    metaDescription: '探索西班牙布尔戈斯托贝拉的标志性自然地标——托贝拉瀑布（Cascada de Tobera）。查看位置地图、开放时间、周边托贝拉峡谷及旅行建议。',
-    ogTitle: '托贝拉瀑布 Cascada de Tobera - 托贝拉旅游指南',
-    ogDescription: '西班牙布尔戈斯托贝拉克斯卡达德托贝拉官方游客指南。',
-    nearby1: '托贝拉峡谷（Cañón de Tobera）',
-    nearby2: '弗里亚斯古桥（Puente Viejo de Frías）',
+    countryName: COUNTRY_NAME_ZH,
+    metaTitle: '托贝拉瀑布 Cascada de Tobera（Tobera）- 游客指南与地理位置',
+    metaDescription: `深入探索${ATTRACTION_FULL_NAME}——位于${COUNTRY_NAME_ZH}${STATE_REGION}自治区${STATE_PROVINCE}省${CITY_NAME}村的标志性钙华（石灰华）天然纪念碑。查看精确位置地图、开放时段、访客服务设施、周边${NEARBY_LANDMARK_1_ZH}地质峡谷与${NEARBY_LANDMARK_2_ZH}中世纪六孔古桥，以及无痕山林 LNT 徒步建议。`,
+    ogTitle: '托贝拉瀑布 Cascada de Tobera — 布尔戈斯托贝拉专业科普指南',
+    ogDescription: `Cascada de Tobera（托贝拉瀑布）官方访客指南 · ${COUNTRY_NAME_ZH} ${STATE_REGION} ${STATE_PROVINCE} ${CITY_NAME} · Natura 2000 双认证（ES4120017）· 侏罗系活态钙华地质现场 · 水磨群 BIC 民族志遗产。`,
+    nearby1: NEARBY_LANDMARK_1_ZH,
+    nearby2: NEARBY_LANDMARK_2_ZH,
     faq: [
       {
         q: '1. 托贝拉瀑布 Cascada de Tobera 具体位置在哪里？',
@@ -276,16 +286,31 @@ function TouristAttractionJsonLd({ locale }: { locale: string }) {
     '@type': 'TouristAttraction',
     '@id': `https://${DOMAIN_NAME}/#attraction`,
     name: ATTRACTION_FULL_NAME,
-    alternateName: [ATTRACTION_SHORT_NAME, `${CITY_NAME} ${ATTRACTION_FULL_NAME}`],
-    description: d.ogDescription,
+    alternateName: [
+      ATTRACTION_SHORT_NAME,
+      `${CITY_NAME} ${ATTRACTION_FULL_NAME}`,
+      `${STATE_PROVINCE} ${ATTRACTION_FULL_NAME}`,
+      '托贝拉瀑布 Cascada de Tobera',
+      'Cascada de Tobera (Tobera, Burgos)',
+    ],
+    description: d.metaDescription,
     url: `https://${DOMAIN_NAME}`,
-    image: [HERO_IMAGE_URL],
+    image: [
+      {
+        '@type': 'ImageObject',
+        url: HERO_IMAGE_URL,
+        width: 1200,
+        height: 630,
+        description: `${ATTRACTION_FULL_NAME} - Main view in ${CITY_NAME}, ${d.countryName}`,
+      },
+    ],
     isAccessibleForFree: true,
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'C. San Vicente, 2',
       addressLocality: CITY_NAME,
       addressRegion: STATE_PROVINCE,
+      addressRegionFull: STATE_REGION,
       postalCode: POSTAL_CODE,
       addressCountry: COUNTRY_CODE_2LETTER,
     },
@@ -295,7 +320,14 @@ function TouristAttractionJsonLd({ locale }: { locale: string }) {
       longitude: LONGITUDE,
     },
     hasMap: MAPS_SHARE_URL,
-    sameAs: [MAPS_SHARE_URL, GOVT_TOURISM_URL],
+    additionalType: 'Natural Monument',
+    sameAs: [
+      MAPS_SHARE_URL,
+      GOVT_TOURISM_URL,
+      'https://www.turismocastillayleon.com/',
+      'https://patrimonionatural.org/',
+      'https://ec.europa.eu/environment/nature/natura2000/',
+    ],
   };
   return (
     <script
@@ -350,7 +382,6 @@ export default async function LocaleLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <TouristAttractionJsonLd locale={locale} />
         <FAQJsonLd locale={locale} />
-        <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
         <script
           dangerouslySetInnerHTML={{
             __html: `

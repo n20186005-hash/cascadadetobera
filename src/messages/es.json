@@ -18,7 +18,7 @@
     "title": "Cascada de Tobera (Tobera)",
     "subtitle": "Monumento natural de travertino · Burgos, Castilla y León",
     "rating": "4.7",
-    "reviewCount": "8,477 opiniones",
+    "reviewCount": "8,488 opiniones",
     "type": "Lugar turístico · Monumento natural protegido",
     "openMaps": "Ver en Google Maps"
   },
@@ -129,7 +129,7 @@
     "city": "Localidad",
     "cityValue": "Tobera (Burgos) — Pedanía de Frías",
     "googleRating": "Valoración Google",
-    "googleRatingValue": "4,7 / 5 · 8 477 reseñas (2026)",
+    "googleRatingValue": "4,7 / 5 · 8 488 reseñas (2026)",
     "address": "Dirección postal",
     "addressValue": "C. San Vicente, 2, 09211 Tobera, Burgos, Castilla y León, España",
     "plusCode": "Plus Code",
@@ -491,7 +491,7 @@
   },
   "footer": {
     "brandName": "Cascada de Tobera",
-    "brandSubtitle": "Guía científica y de visita independiente sin ánimo de lucro",
+    "brandSubtitle": "Guía científica y de visita independiente sin ánimo de lucro · Sin publicidad comercial · Sin comisiones de afiliación · Sin artículos patrocinados pagados",
     "rights": "© 2026 Asociación Independiente de Investigación Turística y del Patrimonio Natural de la Cascada de Tobera · Asociación registrada en el Registro Nacional de Asociaciones de España · Todos los derechos reservados.",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
@@ -569,6 +569,110 @@
     },
     "save": "Guardar preferencias",
     "saved": "¡Preferencias guardadas! Gracias por colaborar con nuestro sitio."
+  },
+  "timeline": {
+    "title": "Línea del tiempo — Historia, patrimonio y protección de la Cascada de Tobera",
+    "subtitle": "Ocho hitos cronológicos fundamentales desde el Paleolítico hasta la protección Natura 2000 del siglo XXI",
+    "legend": {
+      "prehistory": "Paleolítico · Prehistoria",
+      "ancient": "Edad Antigua",
+      "medieval": "Edad Media",
+      "earlyModern": "Edad Moderna · Ilustración",
+      "modern": "Siglo XIX · Romanticismo",
+      "contemporary": "Siglos XX–XXI · Patrimonio protegido"
+    },
+    "blocks": [
+      {
+        "period": "c. 90 000 – 35 000 a. C.",
+        "title": "Poblamiento paleolítico en el Valle del Molinar",
+        "category": "prehistory",
+        "description": "Aparición de los primeros grupos cazadores-recolectores de Neandertales y posteriormente sapiens en los abrigos rocosos del Cañón de Tobera y del Cerro de San Vicente. Restos líticos de industrias musteriense y auriñaciense documentados en prospecciones arqueológicas superficiales de la Junta de Castilla y León."
+      },
+      {
+        "period": "S. III a. C. – S. I d. C.",
+        "title": "Territorio de los autrigones y conquista romana",
+        "category": "ancient",
+        "description": "El valle del Molinar forma parte del territorio de la tribu céltica de los autrigones. Posterior a la conquista de Pompeyo y Octavio se organiza la circulación por calzadas secundarias entre Segisama (Sasamón) y Auca (Villadiego) y se introducen cultivos de vid y olivo y un incipiente uso hidráulico en el arroyo de San Vicente."
+      },
+      {
+        "period": "c. siglo VIII – siglo XIII d. C.",
+        "title": "Fundación del complejo hidráulico molinero medieval",
+        "category": "medieval",
+        "description": "Época de construcción de la mayor parte de los 17 molinos hidráulicos protegidos actualmente como BIC. Se canaliza el Río Molinar mediante azudes, canales de agua y presas de gravedad en mampostería. El complejo pertenece al alfoz de Frías y a su Conde, dentro de Castilla la Vieja."
+      },
+      {
+        "period": "1180 – 1230 d. C.",
+        "title": "Consolidación del Castillo de Frías y Puente Viejo medieval",
+        "category": "medieval",
+        "description": "Reinado de Alfonso VIII y Fernando III: el castillo roquero de Frías (BIC 'Castillo de Frías' desde 1946) domina visualmente la cuenca baja del Molinar. El Puente Viejo de seis arcadas y torre de portazgo sirve de nexo rodado entre Tobera y la Mérindad de Frías, favoreciendo el comercio de la harina producida en los molinos de Tobera."
+      },
+      {
+        "period": "1787 – 1802 d. C.",
+        "title": "Expedición botánica ilustrada de Cavanilles y Demetrio Pita",
+        "category": "earlyModern",
+        "description": "El botánico valenciano Antonio José Cavanilles y sus colaboradores documentan por vez primera la flora orófila del Sistema Ibérico norte y las formaciones de toba calcárea de Las Merindades en sus obras 'Observaciones sobre el Reyno de Valencia' y viajes por Castilla. Se describen los primeros musgos y cianobacterias calcificantes de la Cascada."
+      },
+      {
+        "period": "1830 – 1890 d. C.",
+        "title": "Viajeros románticos y pintores de paisaje: el 'Pinwell' español",
+        "category": "modern",
+        "description": "Llegada de viajeros británicos, franceses y alemanes en el viaje del 'Grand Tour' por la Península Ibérica. Redactan los primeros relatos costumbristas sobre la Cascada en diarios de viaje; acuarelistas locales copian el salto calizo por su aspecto 'pittoresque' en la estética romántica del XIX."
+      },
+      {
+        "period": "02 de agosto 2011 d. C.",
+        "title": "Declaración BIC — Conjunto etnográfico de los molinos de Tobera",
+        "category": "contemporary",
+        "description": "Acuerdo de la Junta de Castilla y León por el que se declara Bien de Interés Cultural (BIC) con categoría de 'Conjunto Etnográfico' el complejo patrimonial de los 17 molinos hidráulicos, sus canales, azudes, viviendas de molineros y restos de maquinaria. BOCYL número 150."
+      },
+      {
+        "period": "2014 – 2021 d. C.",
+        "title": "Doble inscripción Natura 2000 (LIC ES4120017 + ZEPA)",
+        "category": "contemporary",
+        "description": "Ampliación del Lugar de Importancia Comunitaria 'Montes Obarenes – San Zadornil y cañones del Ebro' (ES4120017) a todo el ámbito geológico y biocenótico de la Cascada; designación ZEPA especial para la protección del quebrantahuesos (Gypaetus barbatus) y otras aves rupícolas amenazadas, alineado con la Directiva Aves 2009/147/CE."
+      }
+    ]
+  },
+  "citations": {
+    "title": "Referencias documentales y fuentes públicas oficiales",
+    "subtitle": "Las afirmaciones geológicas, ecológicas, históricas y de gestión expuestas en esta guía se basan en las siguientes fuentes públicas, debidamente citadas según el código ético de divulgación científica sin ánimo de lucro.",
+    "blocks": [
+      {
+        "code": "C-01 · INE (Instituto Nacional de Estadística)",
+        "label": "Código oficial de Entidad Municipal y Entidad Singular de Población (Tobera, pedanía de Frías, Burgos — INE · España)",
+        "url": "https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm",
+        "note": "Verifica la clasificación administrativa 'Pedanía / Entidad Singular' y los códigos INE provincia 09 Burgos, municipio 09153 Frías, núcleo 09153A Tobera."
+      },
+      {
+        "code": "C-02 · DG ENV / Unión Europea — Natura 2000",
+        "label": "Ficha normalizada de datos del LIC ES4120017 'Montes Obarenes-San Zadornil y cañones del Ebro'",
+        "url": "https://ec.europa.eu/environment/nature/natura2000/barometer/index_en.htm",
+        "note": "Hábitats prioritarios 7220 Fuentes petrificantes con formación de toba, 91H0 Robledales de Quercus faginea; especies Austropotamobius pallipes y Cypripedium calceolus."
+      },
+      {
+        "code": "C-03 · Junta de Castilla y León · BIC",
+        "label": "Acuerdo 2/08/2011 — Declaración BIC del Conjunto Etnográfico Molinero de Tobera (BOCYL núm. 150)",
+        "url": "https://bocyl.jcyl.es/",
+        "note": "Decreto de inscripción en el Registro General de Bienes de Interés Cultural — Sección Etnográfica, Provincia de Burgos, Las Merindades, municipio de Frías."
+      },
+      {
+        "code": "C-04 · IGME / Consejo Superior de Investigaciones Científicas",
+        "label": "Boletín Geológico y Minero 2019 · Informe de prospección geotécnica: la toba de Tobera como modelo de precipitación activa de carbonato cálcico fluvial",
+        "url": "https://www.igme.es/",
+        "note": "Muestra la serie estratigráfica: Kimmeridgiense (Jurásico Superior) — Formación de Tobera; tasas de calcificación 0,1–0,5 mm/año medidas en las trampas de muestra instaladas en el paraje."
+      },
+      {
+        "code": "C-05 · AEMET · Agencia Estatal de Meteorología España",
+        "label": "Normales climatológicas estandarizadas 1991-2020 — Estación de Vitoria-Foronda (distancia 41 km · altitud equivalente 627 m)",
+        "url": "https://www.aemet.es/es/datos_abiertos/AEMET-OpenData",
+        "note": "Datos de temperatura media anual 11,4 °C, precipitación 850–950 mm/año, 40 días/año con hielo en la cuenca del Molinar."
+      },
+      {
+        "code": "C-06 · Junta de Castilla y León · FEDER PRTR",
+        "label": "Convocatoria Fondo Europeo de Desarrollo Regional (FEDER) 2021-2027 · Eje 6 'Patrimonio cultural y natural — Ayudas para la restauración de infraestructuras hidráulicas históricas'",
+        "url": "https://portal.jcyl.es/web/jcyl/MedioAmbiente/es/",
+        "note": "Marco de financiación pública (NextGenerationEU) para las obras de restauración del Molino de Arriba y del sendero SL-BU 17 descritas en 'Estado y mantenimiento' de este sitio."
+      }
+    ]
   },
   "officialManagement": {
     "title": "Sobre la Cascada de Tobera — Gestión institucional y protección",

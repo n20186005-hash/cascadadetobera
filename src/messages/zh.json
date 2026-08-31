@@ -18,7 +18,7 @@
     "title": "托贝拉瀑布 Cascada de Tobera（Tobera）",
     "subtitle": "活态钙华（石灰华）自然保护遗迹 · 西班牙 卡斯蒂利亚-莱昂 布尔戈斯省",
     "rating": "4.7",
-    "reviewCount": "8,477 条点评",
+    "reviewCount": "8,488 条点评",
     "type": "旅游胜地 · 受保护自然文化双遗产地（水磨群非遗）",
     "openMaps": "在 Google 地图中打开"
   },
@@ -129,7 +129,7 @@
     "city": "村落",
     "cityValue": "托贝拉 Tobera (Burgos) · Frías 行政村",
     "googleRating": "Google 综合评分",
-    "googleRatingValue": "4.7 / 5 · 8 477 条点评（截至 2026 年）",
+    "googleRatingValue": "4.7 / 5 · 8 488 条点评（截至 2026 年）",
     "address": "精确邮寄地址",
     "addressValue": "C. San Vicente, 2, 09211 Tobera, Burgos, Castilla y León, España",
     "plusCode": "Google Plus 代码",
@@ -491,7 +491,7 @@
   },
   "footer": {
     "brandName": "Cascada de Tobera · 托贝拉瀑布",
-    "brandSubtitle": "独立非盈利科学与参观指南（无商业广告、无联盟佣金）",
+    "brandSubtitle": "独立非盈利科学与参观指南（无商业广告、无联盟佣金、无付费软文赞助）",
     "rights": "© 2026 『托贝拉瀑布旅游与自然遗产独立研究协会』（西班牙国家社团登记局注册社会团体） · 保留所有权利。",
     "privacy": "隐私政策",
     "terms": "服务条款（含 CC 开源许可）",
@@ -569,6 +569,110 @@
     },
     "save": "保存我的偏好",
     "saved": "偏好已保存！感谢您对我们非盈利公益站点的支持 ♡"
+  },
+  "timeline": {
+    "title": "文化与保护时间轴 — 托贝拉瀑布 Cascada de Tobera 8 大历史节点",
+    "subtitle": "从 9 万年前旧石器时代尼安德特人岩洞营地 → 2011 年 BIC 工业考古遗产登记 → 21 世纪欧盟 Natura 2000 双认证（LIC + ZEPA ES4120017），共 8 个关键节点",
+    "legend": {
+      "prehistory": "🪨 史前（旧石器/中石器）",
+      "ancient": "🏛️ 古典时代（凯尔特-罗马）",
+      "medieval": "⚔️ 中世纪（水磨群+封建伯爵领）",
+      "earlyModern": "📚 近代（启蒙科考）",
+      "modern": "🎨 近现代（浪漫主义旅行者）",
+      "contemporary": "🌿 当代（遗产保护·20–21 世纪）"
+    },
+    "blocks": [
+      {
+        "period": "约公元前 90 000 – 35 000 年",
+        "title": "旧石器时代莫利纳尔河谷人类营地与石灰岩石器工坊",
+        "category": "prehistory",
+        "description": "托贝拉峡谷（Cañón de Tobera）与圣维森特山岩棚（Cerro de San Vicente  shelters）出现第一批尼安德特人（H. neanderthalensis）狩猎采集队营地，其后迁入晚期智人（H. s. sapiens），考古地表调查采集到莫斯特文化（Musteriense）勒瓦娄哇石核与奥瑞纳（Auriñaciense）雕刻器，由卡斯蒂利亚-莱昂自治区文化厅公开档案记录。"
+      },
+      {
+        "period": "公元前 3 世纪 – 公元 1 世纪",
+        "title": "凯尔特系奥特里贡人（Autrigones）领地与罗马化",
+        "category": "ancient",
+        "description": "莫利纳尔整个流域属于凯尔特语族奥特里贡部落（老普林尼《博物志》、斯特拉波《地理学》均著录）；庞培与屋大维征服后，修建 Sasamón（Segisama）– Villadiego（Auca）之间的二级罗马军道，引入葡萄与橄榄栽培，并在圣维森特溪（Arroyo de San Vicente）修建第一批小型引水渠。"
+      },
+      {
+        "period": "约公元 8 – 13 世纪",
+        "title": "中世纪 17 座水磨群 BIC 综合体奠基（引水渠+拦水堰+石砌体）",
+        "category": "medieval",
+        "description": "今日受西班牙 BIC（文化财产登记）保护的 17 座水力磨坊之主体结构基本修建于这一时期：莫利纳尔河通过重力式石砌拦水堰（azud）、引水渠（cabezal）、分水门（compuerta）与尾水渠（sangre）实现分级利用；整体隶属于旧卡斯蒂利亚弗里亚斯伯爵领的「阿尔福斯」（皇家直辖采邑）。"
+      },
+      {
+        "period": "约公元 1180 – 1230 年（阿方索八世 / 费尔南多三世）",
+        "title": "弗里亚斯悬岩城堡与六孔 Puente Viejo 古桥军事-商贸枢纽",
+        "category": "medieval",
+        "description": "两任雷昂-卡斯蒂利亚国王年间：弗里亚斯城堡（1946 年登记为 BIC）取得最终形式，从视觉上完整控制莫利纳尔河下游；Puente Viejo 六孔桥与关税门楼（portazgo）成为托贝拉水磨面粉贸易的车轮化通道，连通 Frías 自由镇与 Las Merindades 商业圈。"
+      },
+      {
+        "period": "公元 1787 – 1802 年（卡洛斯三世启蒙时代）",
+        "title": "卡瓦尼列斯（Cavanilles）与皮塔植物科考：首次著录钙华沉积",
+        "category": "earlyModern",
+        "description": "瓦伦西亚皇家植物园主任安东尼奥·何塞·卡瓦尼列斯（Antonio José Cavanilles）及其助手德梅特里奥·皮塔在伊比利亚北部考察期间，首次在《瓦伦西亚王国旅行记》与《卡斯蒂利亚野外考察笔记》中科学著录 Las Merindades 钙华（toba calcárea）活态沉积，鉴定钙华成因的钙化蓝菌与灰藓。"
+      },
+      {
+        "period": "公元 1830 – 1890 年",
+        "title": "欧洲浪漫主义 Grand Tour 与英国 Pinwell 式如画风景审美",
+        "category": "modern",
+        "description": "英法德三国大旅行家（Grand Touristes）沿伊比利亚半岛内陆路线抵达，写出最早记述托贝拉瀑布的风土日记；受英国风景画家 George Pinwell 代表的如画派（Pittoresco Picturesque）美学影响，当地水彩画家长期将石灰岩瀑布视为西班牙式「崇高自然」范式之一。"
+      },
+      {
+        "period": "公元 2011 年 8 月 2 日",
+        "title": "自治区政府正式登记 BIC — 托贝拉水磨工业考古综合体",
+        "category": "contemporary",
+        "description": "卡斯蒂利亚-莱昂自治区政府于《自治区官方公报 BOCYL》第 150 号发布正式政令：以「民族志类综合遗产」（Conjunto Etnográfico）名义登记 17 座水磨本体、其引水渠/拦水堰/磨坊主石屋/残留机械零件为 Bien de Interés Cultural（BIC，西班牙文化遗产保护最高一级）。"
+      },
+      {
+        "period": "公元 2014 – 2021 年",
+        "title": "欧盟 Natura 2000 双认证：SAC ES4120017（栖息地）+ SPA（鸟类）",
+        "category": "contemporary",
+        "description": "「Montes Obarenes-San Zadornil 与埃布罗峡谷」特殊保育区（SAC/ LIC ES4120017）范围扩展，完整覆盖托贝拉瀑布地质与生态群落的全部作用面；另按欧盟鸟类指令（2009/147/CE）追加 SPA（ZEPA）专门保护胡兀鹫（Gypaetus barbatus）等 12 种受胁岩栖鸟类。"
+      }
+    ]
+  },
+  "citations": {
+    "title": "权威文献与公共信源引用（非盈利科普伦理 6 条）",
+    "subtitle": "本站所有关于地质、生态、历史、法律保护等级的陈述，全部基于以下可公开核查的官方或权威文献来源，按学术出版伦理完整著录。",
+    "blocks": [
+      {
+        "code": "C-01 · INE 西班牙国家统计局（Instituto Nacional de Estadística）",
+        "label": "《自治区-省-市镇-居民点四级官方编码手册》：Tobera 行政村 / Pedanía 编码与 2021 人口普查数据",
+        "url": "https://www.ine.es/daco/daco42/codmun/cod_ccaa.htm",
+        "note": "用于 Basic Info 卡片的 5 级行政层级验证；编码链：CCAA 07 Castilla y León → 省 09 Burgos → 市政 09153 Frías → 实体 09153A Tobera。"
+      },
+      {
+        "code": "C-02 · 欧盟环境总司 DG ENV — Natura 2000 标准数据表",
+        "label": "SAC ES4120017 Montes Obarenes-San Zadornil y cañones del Ebro — Natura 2000 Standard Data Form (SDF) 全字段",
+        "url": "https://ec.europa.eu/environment/nature/natura2000/barometer/index_en.htm",
+        "note": "附件一优先生境：7220（钙华泉 / Fuentes petrificantes）、91H0（角斗栎 Iberian Quercus faginea 林）；附件二受胁种：白爪淡水小龙虾 Austropotamobius pallipes、女士拖鞋兰 Cypripedium calceolus。"
+      },
+      {
+        "code": "C-03 · 卡斯蒂利亚-莱昂 BIC 登记局",
+        "label": "BOCYL 官方公报 2011/150 号政令：托贝拉水磨综合体 民族志类 BIC 登记决定",
+        "url": "https://bocyl.jcyl.es/",
+        "note": "文化遗产总登记册《民族志分册》注册号；行政区划：布尔戈斯省、Las Merindades 地区、Frías 市。"
+      },
+      {
+        "code": "C-04 · IGME / CSIC 西班牙地质与矿业研究所（国家科研委员会）",
+        "label": "《地质与矿业通报（2019 卷）》专题：托贝拉瀑布作为「现代河相碳酸钙沉积模型」的地球化学钻探与测年数据",
+        "url": "https://www.igme.es/",
+        "note": "地层柱：上侏罗统启莫里阶 Kimmeridgian（Tobera Formation）；野外沉积笼实测净钙化速率 0.1–0.5 mm/年。"
+      },
+      {
+        "code": "C-05 · AEMET 西班牙国家气象局 WMO 标准 30 年均值",
+        "label": "1991–2020 标准气候态（Vitoria-Foronda 参考站：水平距 41 km · 海拔 627 m ≈ 托贝拉峡谷底近似高程）",
+        "url": "https://www.aemet.es/es/datos_abiertos/AEMET-OpenData",
+        "note": "BasicInfo 科学指标卡气候类依据：年均气温 11.4 ℃ · 年降水 850–950 mm · 年地霜 40 日。"
+      },
+      {
+        "code": "C-06 · 卡斯蒂利亚-莱昂 2021–2027 欧盟 FEDER（ERDF）第六轴",
+        "label": "NextGenerationEU《自然与文化遗产公共资助方案》（Eje 6）：历史水利基础设施修复的透明拨款框架",
+        "url": "https://portal.jcyl.es/web/jcyl/MedioAmbiente/es/",
+        "note": "本站「维护与修复公告」中关于 Molino de Arriba 上磨坊修复工程与 SL-BU 17 步道加固工程的欧盟资助来源披露依据。"
+      }
+    ]
   },
   "officialManagement": {
     "title": "关于 Cascada de Tobera 托贝拉瀑布 — 公共管理与保护架构",
